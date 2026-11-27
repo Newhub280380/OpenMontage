@@ -254,6 +254,7 @@ If the folder has tracks, the proposal and asset stages should present them as o
 | `documentary-montage` | Retrieval-first montage of real footage from free stock and open archives | beta |
 | `animation` | Motion-graphics and animation-first videos | production |
 | `character-animation` | Local rigged cartoon characters and reusable character acting | beta |
+| `identity-insert` | Photos plus a reference clip: character sheet, edit vs motion-reference, stills, then a launch card | beta |
 | `hybrid` | Source footage plus support visuals | production |
 | `avatar-spokesperson` | Presenter-led avatar or lip-sync videos | production |
 | `localization-dub` | Subtitle, dub, and translated variants | beta |
@@ -261,6 +262,8 @@ If the folder has tracks, the proposal and asset stages should present them as o
 | `framework-smoke` | Test: minimal 2-stage smoke test | test |
 
 > **Beta pipelines** have not been fully audited. They work, but expect rough edges. Mention this when the user selects one.
+
+When the request is photos of a person, a reference or trend clip, and a short wish, use `identity-insert`. Read `skills/pipelines/identity-insert/executive-producer.md` and `skills/knowledge/middle/README.md` before any generation. The planner stops at a launch card. It does not call a paid model.
 
 ## Mandatory Preflight
 

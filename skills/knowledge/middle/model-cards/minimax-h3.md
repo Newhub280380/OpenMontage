@@ -1,0 +1,23 @@
+# minimax-h3
+
+Adapted model card. Sales copy was removed. This card does not quote a live price.
+
+- Kind: video
+- Provider family: minimax
+- Label: MiniMax H3
+- Input modes: text_to_video, text_image_to_video, video_reference, image_to_video
+- Mode options: unspecified
+- Resolutions: 768p, 2k
+- Durations (seconds): 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+- Aspect ratios: 16:9, 1:1, 21:9, 3:4, 4:3, 9:16
+- Inline @ aliases: no
+- Prompt language: en
+- Prompt semantics: compiled_prompt
+
+## Editorial note
+
+Мультимодальная модель MiniMax с 768P и 2K (2K по умолчанию) и стереозвуком. Поддерживает текст, первый и опциональный последний кадр или до 9 изображений, 3 видео и 3 аудио-референсов. Видео: MP4/MOV, от 2 до 15 секунд каждый, до 15 секунд суммарно и до 50 МБ на файл. Видео можно использовать без изображений; аудио требует изображение или видео. Кадры несовместимы с референсами. Входные видеосекунды оплачиваются дополнительно к выходным.
+
+## OpenMontage use
+
+Edit-source means mode `edit` and field `sourceVideo`. Motion-reference means the clip controls motion and camera only. Rank this card with `lib.scoring`, then show a launch card before any paid call.

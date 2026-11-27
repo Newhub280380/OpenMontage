@@ -114,18 +114,22 @@ class CostTracker:
         self._save()
         return entry_id
 
-    def reserve(self, entry_id: str) -> None:
+    def reserve(self, entry_id: str, *, human_approved: bool = False) -> None:
         """Reserve budget for an estimated entry.
 
         Raises BudgetExceededError in cap mode, or ApprovalRequiredError
         when the action exceeds the single-action approval threshold.
+
+        ``human_approved`` is set only after a person accepts a launch card.
+        It satisfies the single-action threshold. It does not skip the
+        budget cap or the first-use approval of a paid tool.
         """
         entry = self._find(entry_id)
         self._require_status(entry, EntryStatus.ESTIMATED, "reserve")
         estimated = entry["estimated_usd"]
 
         # Check single-action approval threshold
-        if estimated > self.single_action_approval_usd:
+        if estimated > self.single_action_approval_usd and not human_approved:
             if self.mode != BudgetMode.OBSERVE:
                 raise ApprovalRequiredError(
                     f"Action costs ${estimated:.2f}, exceeds "

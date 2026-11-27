@@ -1,0 +1,7944 @@
+{
+  "source": "public trend catalog, settings only",
+  "prompts_included": false,
+  "count": 479,
+  "trends": [
+    {
+      "slug": "gesi-ka-jali",
+      "title": "Gesi Ka Jali",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 15,
+      "categories": [
+        "featuring-you",
+        "christmas",
+        "movies"
+      ],
+      "stand_in": true,
+      "slots": [
+        "[0s-1s]",
+        "[1s-2s]",
+        "[2s-3s]",
+        "[3s-4s]",
+        "[4s-5s]",
+        "[5s-6s]",
+        "[6s-7s]",
+        "[7s-8s]"
+      ]
+    },
+    {
+      "slug": "banquet-rap",
+      "title": "Banquet Rap",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "4:3",
+      "duration_seconds": 19,
+      "categories": [
+        "new",
+        "featuring-you",
+        "popular",
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0.00-3.30]",
+        "[0.00-0.50]",
+        "[0.50-1.00]",
+        "[1.00-2.00]",
+        "[2.00-3.30]",
+        "[3.30-7.27]",
+        "[3.30-6.50]",
+        "[6.50-7.27]"
+      ]
+    },
+    {
+      "slug": "santa-taxi-drop",
+      "title": "Santa Taxi Drop",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "featuring-you",
+        "christmas",
+        "products"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0:00-0:03.0]",
+        "[0:03.0-0:05.0]",
+        "[0:05.0-0:07.0]",
+        "[0:07.0-0:08.5]",
+        "[0:08.5-0:09.5]",
+        "[0:09.5-0:11.5]",
+        "[0:11.5-0:12.6]",
+        "[0:12.6-0:13.7]"
+      ]
+    },
+    {
+      "slug": "the-endless-box",
+      "title": "The Endless Box",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 14,
+      "categories": [
+        "new",
+        "featuring-you",
+        "popular"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0.00-1.50]",
+        "[0.00-0.25]",
+        "[0.25-0.75]",
+        "[0.75-1.50]",
+        "[1.50-5.50]",
+        "[1.50-2.50]",
+        "[2.50-3.25]",
+        "[3.25-4.25]"
+      ]
+    },
+    {
+      "slug": "giant-ornament-roll",
+      "title": "Giant Ornament Roll",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 12,
+      "categories": [
+        "christmas",
+        "products"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0.00-0.25]",
+        "[0.25-0.75]",
+        "[0.75-1.50]",
+        "[1.50-2.00]",
+        "[2.00-2.50]",
+        "[2.50-3.00]",
+        "[3.00-3.50]",
+        "[3.50-4.50]"
+      ]
+    },
+    {
+      "slug": "frosty-window-reveal",
+      "title": "Frosty Window Reveal",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 15,
+      "categories": [
+        "new",
+        "christmas",
+        "products"
+      ],
+      "stand_in": true,
+      "slots": [
+        "[0.00-1.75]",
+        "[1.75-2.00]",
+        "[2.00-3.50]",
+        "[3.50-3.75]",
+        "[3.75-6.75]",
+        "[6.75-7.00]",
+        "[7.00-8.50]",
+        "[8.50-8.75]"
+      ]
+    },
+    {
+      "slug": "snowball-peekaboo",
+      "title": "Snowball Peekaboo",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 6,
+      "categories": [
+        "featuring-you",
+        "christmas"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0.00-0.25]",
+        "[0.25-0.50]",
+        "[0.50-0.75]",
+        "[0.75-1.25]",
+        "[1.25-1.50]",
+        "[1.50-1.75]",
+        "[1.75-2.25]",
+        "[2.25-2.75]"
+      ]
+    },
+    {
+      "slug": "the-gift-fridge",
+      "title": "The Gift Fridge",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 15,
+      "categories": [
+        "christmas",
+        "products"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0.00-2.25]",
+        "[0.00-0.50]",
+        "[0.50-1.50]",
+        "[1.50-2.25]",
+        "[2.25-8.00]",
+        "[2.25-3.00]",
+        "[3.00-3.50]",
+        "[3.50-4.25]"
+      ]
+    },
+    {
+      "slug": "boom-clap",
+      "title": "Boom Clap",
+      "generation_type": "video",
+      "model": "kling_4_omni",
+      "mode": "standart",
+      "resolution": null,
+      "aspect_ratio": "9:16",
+      "duration_seconds": 13,
+      "categories": [
+        "featuring-you",
+        "popular",
+        "christmas"
+      ],
+      "stand_in": true,
+      "slots": [
+        "[0s-2s]",
+        "[2s-4s]",
+        "[4s-6s]",
+        "[6s-8s]",
+        "[8s-10s]",
+        "[10s-12s]",
+        "[12s-13s]"
+      ]
+    },
+    {
+      "slug": "the-nutcrackers-gift",
+      "title": "The Nutcracker's Gift",
+      "generation_type": "video",
+      "model": "seedance-2.5-flash",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 15,
+      "categories": [
+        "christmas",
+        "products"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-3s]",
+        "[3s-6s]",
+        "[6s-15s]"
+      ]
+    },
+    {
+      "slug": "the-midnight-express",
+      "title": "The Midnight Express",
+      "generation_type": "video",
+      "model": "seedance-2.5-flash",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 10,
+      "categories": [
+        "christmas",
+        "products"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-3s]",
+        "[3s-6s]",
+        "[6s-10s]"
+      ]
+    },
+    {
+      "slug": "special-delivery",
+      "title": "Special Delivery",
+      "generation_type": "video",
+      "model": "seedance-2.5-flash",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 12,
+      "categories": [
+        "christmas",
+        "products"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-3s]",
+        "[3s-6s]",
+        "[6s-8s]",
+        "[8s-10s]",
+        "[10s-12s]"
+      ]
+    },
+    {
+      "slug": "snow-rider",
+      "title": "Snow Rider",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 15,
+      "categories": [
+        "new",
+        "featuring-you",
+        "popular",
+        "christmas"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "slide-into-christmas",
+      "title": "Slide into Christmas",
+      "generation_type": "video",
+      "model": "seedance-2.5-flash",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 10,
+      "categories": [
+        "christmas",
+        "products"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-2s]",
+        "[2s-4s]",
+        "[4s-5s]",
+        "[5s-10s]"
+      ]
+    },
+    {
+      "slug": "little-helper",
+      "title": "Little Helper",
+      "generation_type": "video",
+      "model": "seedance-2.5-flash",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 7,
+      "categories": [
+        "christmas",
+        "products"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-2s]",
+        "[2s-5s]",
+        "[5s-7s]"
+      ]
+    },
+    {
+      "slug": "a-gift-for-santa",
+      "title": "A Gift for Santa",
+      "generation_type": "video",
+      "model": "seedance-2.5-flash",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 11,
+      "categories": [
+        "christmas",
+        "products"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-2s]",
+        "[2s-4s]",
+        "[4s-6s]",
+        "[6s-8s]",
+        "[8s-11s]"
+      ]
+    },
+    {
+      "slug": "still-working",
+      "title": "Still Working",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 15,
+      "categories": [
+        "popular",
+        "christmas",
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-4s]",
+        "[4s-7s]",
+        "[7s-10s]",
+        "[10s-13s]",
+        "[13s-15s]"
+      ]
+    },
+    {
+      "slug": "old-friends",
+      "title": "Old Friends",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 10,
+      "categories": [
+        "featuring-you",
+        "celebrations"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-3s]",
+        "[3s-5s]",
+        "[5s-7s]",
+        "[7s-10s]"
+      ]
+    },
+    {
+      "slug": "pet-shoutout",
+      "title": "Pet Shoutout",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "celebrations"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "snegurka",
+      "title": "Snegurka",
+      "generation_type": "video",
+      "model": "wan_30_edit",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 13,
+      "categories": [
+        "popular",
+        "christmas",
+        "movies",
+        "realistic"
+      ],
+      "stand_in": true,
+      "slots": [
+        "[0s-3s]",
+        "[3s-7s]",
+        "[7s-8s]",
+        "[8s-9s]",
+        "[9s-10s]",
+        "[10s-13s]"
+      ]
+    },
+    {
+      "slug": "lucia-swap",
+      "title": "Lucia Swap",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 19,
+      "categories": [
+        "new",
+        "featuring-you",
+        "popular",
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-1s]",
+        "[1s-4s]",
+        "[4s-8s]",
+        "[8s-10s]",
+        "[10s-13s]",
+        "[13s-16s]",
+        "[16s-19s]"
+      ]
+    },
+    {
+      "slug": "eminem-transition",
+      "title": "Eminem Transition",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 16,
+      "categories": [
+        "featuring-you",
+        "popular",
+        "products",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-2s]",
+        "[2s-4s]",
+        "[4s-5s]",
+        "[5s-11s]",
+        "[11s-14s]",
+        "[14s-16s]"
+      ]
+    },
+    {
+      "slug": "stone-castle",
+      "title": "Stone Castle",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 20,
+      "categories": [
+        "featuring-you",
+        "popular",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-2s]",
+        "[2s-4s]",
+        "[4s-6s]",
+        "[6s-8s]",
+        "[8s-10s]",
+        "[10s-12s]",
+        "[12s-14s]",
+        "[14s-16s]"
+      ]
+    },
+    {
+      "slug": "console-out-window",
+      "title": "Console Out Window",
+      "generation_type": "video",
+      "model": "wan_30_edit",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 14,
+      "categories": [
+        "new",
+        "featuring-you",
+        "popular",
+        "realistic"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "ice-lake-drift",
+      "title": "Ice Lake Drift",
+      "generation_type": "video",
+      "model": "seedance-2.5-flash",
+      "mode": "edit",
+      "resolution": "720p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "new"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "flipping-car-dance",
+      "title": "Flipping Car Dance",
+      "generation_type": "video",
+      "model": "kling_4_omni",
+      "mode": "standart",
+      "resolution": null,
+      "aspect_ratio": "16:9",
+      "duration_seconds": 18,
+      "categories": [
+        "new",
+        "featuring-you",
+        "popular"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "mop-attack",
+      "title": "Mop Attack",
+      "generation_type": "video",
+      "model": "wan_30_edit",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 9,
+      "categories": [
+        "new",
+        "featuring-you",
+        "realistic"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "city-giant",
+      "title": "City Giant",
+      "generation_type": "video",
+      "model": "wan_30_edit",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 10,
+      "categories": [
+        "new",
+        "featuring-you"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "parking-garage-groove",
+      "title": "Parking Garage Groove",
+      "generation_type": "video",
+      "model": "seedance-2.5-flash",
+      "mode": "edit",
+      "resolution": "720p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "new",
+        "featuring-you",
+        "realistic"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "pocket-car-drop",
+      "title": "Pocket Car Drop",
+      "generation_type": "video",
+      "model": "wan_30_edit",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 11,
+      "categories": [
+        "new"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "cliff-bounce-catch",
+      "title": "Cliff Bounce Catch",
+      "generation_type": "video",
+      "model": "seedance-2.5-flash",
+      "mode": "edit",
+      "resolution": "720p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "new",
+        "featuring-you"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "biggest-gift",
+      "title": "Biggest Gift",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 9,
+      "categories": [
+        "new",
+        "featuring-you",
+        "christmas"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "frosty-dance-crew",
+      "title": "Frosty Dance Crew",
+      "generation_type": "video",
+      "model": "seedance-2.5-flash",
+      "mode": "edit",
+      "resolution": "720p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "new",
+        "featuring-you",
+        "realistic"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "a-holey-sock",
+      "title": "A Holey Sock",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 15,
+      "categories": [
+        "new",
+        "featuring-you",
+        "popular",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "fergie-london-bridge",
+      "title": "Fergie – London Bridge",
+      "generation_type": "video",
+      "model": "seedance-2.5-flash",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "new",
+        "featuring-you",
+        "christmas"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-3s]",
+        "[3s-6s]",
+        "[6s-7s]",
+        "[7s-11s]",
+        "[11s-15s]",
+        "[15s-20s]",
+        "[20s-24s]",
+        "[24s-27s]"
+      ]
+    },
+    {
+      "slug": "no-rules",
+      "title": "No Rules",
+      "generation_type": "video",
+      "model": "seedance-2.5-flash",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "new",
+        "featuring-you"
+      ],
+      "stand_in": true,
+      "slots": [
+        "[0s-1s]",
+        "[1s-8s]",
+        "[8s-11s]",
+        "[11s-12s]",
+        "[12s-17s]",
+        "[17s-21s]",
+        "[21s-22s]"
+      ]
+    },
+    {
+      "slug": "costume-parade",
+      "title": "Costume Parade",
+      "generation_type": "video",
+      "model": "wan_30_omni",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 7,
+      "categories": [
+        "new",
+        "featuring-you",
+        "christmas"
+      ],
+      "stand_in": true,
+      "slots": [
+        "[0s-1s]",
+        "[1s-2s]",
+        "[2s-3s]",
+        "[3s-4s]",
+        "[4s-5s]",
+        "[5s-6s]",
+        "[6s-7s]"
+      ]
+    },
+    {
+      "slug": "zombie-wife",
+      "title": "Zombie Wife",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 25,
+      "categories": [
+        "new",
+        "featuring-you",
+        "movies",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-3s]",
+        "[3s-4s]",
+        "[4s-5s]",
+        "[5s-7s]",
+        "[7s-8s]",
+        "[8s-9s]",
+        "[9s-12s]",
+        "[12s-13s]"
+      ]
+    },
+    {
+      "slug": "london-london",
+      "title": "London London",
+      "generation_type": "video",
+      "model": "wan_30_omni",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 12,
+      "categories": [
+        "new",
+        "christmas",
+        "movies"
+      ],
+      "stand_in": true,
+      "slots": [
+        "[0s-2s]",
+        "[2s-5s]",
+        "[5s-7s]",
+        "[7s-8s]",
+        "[8s-12s]"
+      ]
+    },
+    {
+      "slug": "dance-car",
+      "title": "Dance Car",
+      "generation_type": "video",
+      "model": "wan_30_omni",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 12,
+      "categories": [
+        "new",
+        "featuring-you",
+        "popular"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-3s]",
+        "[3s-6s]",
+        "[6s-9s]",
+        "[9s-12s]"
+      ]
+    },
+    {
+      "slug": "hand-frame-switch",
+      "title": "Hand Frame Switch",
+      "generation_type": "video",
+      "model": "wan_30_omni",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 8,
+      "categories": [
+        "new",
+        "featuring-you"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "blow-and-throw",
+      "title": "Blow and Throw",
+      "generation_type": "video",
+      "model": "wan_30_omni",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 9,
+      "categories": [
+        "new",
+        "featuring-you",
+        "celebrations",
+        "realistic"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "light-and-blow",
+      "title": "Light And Blow",
+      "generation_type": "video",
+      "model": "wan_30_omni",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 10,
+      "categories": [
+        "new",
+        "featuring-you",
+        "celebrations"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "cake-in-the-fridge",
+      "title": "Cake In the Fridge",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 17,
+      "categories": [
+        "new",
+        "featuring-you",
+        "celebrations"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "one-breath-wish",
+      "title": "One Breath Wish",
+      "generation_type": "video",
+      "model": "wan_30_omni",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 8,
+      "categories": [
+        "new",
+        "featuring-you",
+        "celebrations"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "flaming-candle-blowout",
+      "title": "Flaming Candle Blowout",
+      "generation_type": "video",
+      "model": "wan_30_omni",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 8,
+      "categories": [
+        "new",
+        "featuring-you",
+        "celebrations",
+        "realistic"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "make-a-wish",
+      "title": "Make a Wish",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "new",
+        "featuring-you",
+        "celebrations"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "lil-tjan",
+      "title": "Lil Tjan",
+      "generation_type": "video",
+      "model": "kling_4_omni",
+      "mode": "standart",
+      "resolution": null,
+      "aspect_ratio": "16:9",
+      "duration_seconds": 16,
+      "categories": [
+        "new",
+        "featuring-you",
+        "realistic"
+      ],
+      "stand_in": true,
+      "slots": [
+        "[0s-1s]",
+        "[1s-2s]",
+        "[2s-4s]",
+        "[4s-5s]",
+        "[5s-7s]",
+        "[7s-9s]",
+        "[9s-10s]",
+        "[10s-12s]"
+      ]
+    },
+    {
+      "slug": "ride-the-beat",
+      "title": "Ride the Beat",
+      "generation_type": "video",
+      "model": "kling_4_omni",
+      "mode": "standart",
+      "resolution": null,
+      "aspect_ratio": "16:9",
+      "duration_seconds": 30,
+      "categories": [
+        "new",
+        "featuring-you",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-7s]",
+        "[7s-10s]",
+        "[10s-14s]",
+        "[14s-24s]",
+        "[24s-27s]",
+        "[27s-29s]"
+      ]
+    },
+    {
+      "slug": "epic-arrival",
+      "title": "Epic Arrival",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "new",
+        "featuring-you"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-2s]",
+        "[2s-4s]",
+        "[4s-6s]",
+        "[6s-9s]"
+      ]
+    },
+    {
+      "slug": "football-legends",
+      "title": "Football Legends",
+      "generation_type": "video",
+      "model": "wan_30_omni",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 8,
+      "categories": [
+        "new",
+        "featuring-you",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-1s]",
+        "[1s-2s]",
+        "[2s-4s]",
+        "[4s-6s]",
+        "[6s-8s]"
+      ]
+    },
+    {
+      "slug": "retro-groove",
+      "title": "Retro Groove",
+      "generation_type": "video",
+      "model": "kling_4_omni",
+      "mode": "standart",
+      "resolution": null,
+      "aspect_ratio": "9:16",
+      "duration_seconds": 20,
+      "categories": [
+        "new",
+        "featuring-you"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "kick-and-run",
+      "title": "Kick and Run",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "new",
+        "featuring-you",
+        "popular"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "surprise-knockout-kick",
+      "title": "Surprise Knockout Kick",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "new",
+        "featuring-you",
+        "realistic"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "fans-go-wild",
+      "title": "Fans Go Wild",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "new",
+        "featuring-you",
+        "popular",
+        "realistic"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "outfit-transition-gone-crazy",
+      "title": "Outfit Transition Gone Crazy",
+      "generation_type": "video",
+      "model": "wan_30_omni",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 7,
+      "categories": [
+        "new",
+        "featuring-you",
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "a-couple-in-the-bathroom",
+      "title": "A Couple in the Bathroom",
+      "generation_type": "video",
+      "model": "wan_30_omni",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 11,
+      "categories": [
+        "featuring-you",
+        "popular"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "carousel",
+      "title": "Carousel",
+      "generation_type": "video",
+      "model": "wan_30_omni",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 10,
+      "categories": [
+        "new",
+        "featuring-you",
+        "christmas"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "snow-logo-imprints",
+      "title": "Snow Logo Imprints",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 15,
+      "categories": [
+        "new",
+        "christmas",
+        "products"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-1s]",
+        "[1s-5s]",
+        "[5s-7s]",
+        "[7s-9s]",
+        "[9s-12s]",
+        "[12s-15s]"
+      ]
+    },
+    {
+      "slug": "wish-a-merry-christmas",
+      "title": "Wish a Merry Christmas",
+      "generation_type": "video",
+      "model": "kling_4_omni",
+      "mode": "standart",
+      "resolution": null,
+      "aspect_ratio": "9:16",
+      "duration_seconds": 14,
+      "categories": [
+        "new",
+        "featuring-you",
+        "christmas"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "christmas-tree-ornament",
+      "title": "Christmas Tree Ornament",
+      "generation_type": "image",
+      "model": "banana-2.1",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "new",
+        "featuring-you",
+        "popular",
+        "christmas",
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "desert-chase",
+      "title": "Desert Chase",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 22,
+      "categories": [
+        "new",
+        "featuring-you",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "reality-in-wonderland",
+      "title": "Reality in Wonderland",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 15,
+      "categories": [
+        "featuring-you",
+        "christmas",
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "street-phantom",
+      "title": "Street Phantom",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 8,
+      "categories": [
+        "new",
+        "featuring-you",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "on-the-winter-roof",
+      "title": "On the Winter Roof",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 15,
+      "categories": [
+        "new",
+        "featuring-you",
+        "christmas",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "new-year-on-the-nose",
+      "title": "New Year on the Nose",
+      "generation_type": "video",
+      "model": "wan_30_omni",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 13,
+      "categories": [
+        "new",
+        "featuring-you",
+        "christmas",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "rig-it-right-for-gta",
+      "title": "Rig It Right For GTA",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 20,
+      "categories": [
+        "new",
+        "featuring-you"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "bad-santa-run",
+      "title": "Bad Santa Run",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 20,
+      "categories": [
+        "new",
+        "featuring-you",
+        "christmas",
+        "products",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "home-alone-again",
+      "title": "Home Alone Again",
+      "generation_type": "video",
+      "model": "wan_30_omni",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 14,
+      "categories": [
+        "featuring-you",
+        "christmas",
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-winning-gift",
+      "title": "The Winning Gift",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 12,
+      "categories": [
+        "featuring-you",
+        "christmas",
+        "products",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "dance-in-the-snow",
+      "title": "Dance in the Snow",
+      "generation_type": "video",
+      "model": "wan_30_omni",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 13,
+      "categories": [
+        "featuring-you",
+        "christmas",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-bigger-gift",
+      "title": "The Bigger Gift",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 25,
+      "categories": [
+        "featuring-you",
+        "christmas"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-4s]",
+        "[4s-8s]",
+        "[8s-12s]",
+        "[12s-15s]",
+        "[15s-21s]",
+        "[21s-25s]"
+      ]
+    },
+    {
+      "slug": "one-more-dance",
+      "title": "One More Dance",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 25,
+      "categories": [
+        "featuring-you",
+        "christmas"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-4s]",
+        "[4s-7s]",
+        "[7s-10s]",
+        "[10s-14s]",
+        "[14s-17s]",
+        "[17s-21s]",
+        "[21s-25s]"
+      ]
+    },
+    {
+      "slug": "snowball-revenge",
+      "title": "Snowball Revenge",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 25,
+      "categories": [
+        "featuring-you",
+        "christmas"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-4s]",
+        "[4s-7s]",
+        "[7s-10s]",
+        "[10s-13s]",
+        "[13s-17s]",
+        "[17s-21s]",
+        "[21s-25s]"
+      ]
+    },
+    {
+      "slug": "my-tears",
+      "title": "My Tears",
+      "generation_type": "video",
+      "model": "wan_30_omni",
+      "mode": null,
+      "resolution": "480P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 13,
+      "categories": [
+        "featuring-you",
+        "popular",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "drift-therapy",
+      "title": "Drift Therapy",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 10,
+      "categories": [
+        "featuring-you",
+        "realistic"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "dj-performance",
+      "title": "DJ Performance",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 29,
+      "categories": [
+        "featuring-you",
+        "products",
+        "realistic"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "500-days-of-summer",
+      "title": "500 Days of Summer",
+      "generation_type": "video",
+      "model": "kling_4_omni",
+      "mode": "standart",
+      "resolution": null,
+      "aspect_ratio": "16:9",
+      "duration_seconds": 25,
+      "categories": [
+        "featuring-you",
+        "popular",
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-5s]",
+        "[5s-10s]",
+        "[10s-15s]",
+        "[15s-20s]",
+        "[20s-25s]"
+      ]
+    },
+    {
+      "slug": "police-equipment",
+      "title": "Police Equipment",
+      "generation_type": "video",
+      "model": "wan_30_reference",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 12,
+      "categories": [
+        "featuring-you",
+        "popular",
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "this-is-what",
+      "title": "This is What?",
+      "generation_type": "video",
+      "model": "wan_30_reference",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 13,
+      "categories": [
+        "featuring-you",
+        "popular",
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "athlete-flex",
+      "title": "Athlete Flex",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "720p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "featuring-you",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "3-friends",
+      "title": "3 Friends",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "720p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "featuring-you",
+        "popular",
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "bell-bell",
+      "title": "Bell Bell",
+      "generation_type": "video",
+      "model": "wan_30_reference",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 14,
+      "categories": [
+        "featuring-you",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "helicopter-jump-2",
+      "title": "Helicopter Jump 2",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "720p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "featuring-you",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "landing",
+      "title": "Landing",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "720p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "featuring-you",
+        "popular",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "fridge-down",
+      "title": "Fridge Down",
+      "generation_type": "video",
+      "model": "wan_30_reference",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 11,
+      "categories": [
+        "featuring-you",
+        "popular",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "hyenas-run",
+      "title": "Hyenas Run",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "720p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "featuring-you",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "burn-it-to-ashes",
+      "title": "Burn it to Ashes",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "720p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "featuring-you",
+        "popular",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "taxi-chase",
+      "title": "Taxi Chase",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "helicopter-jump",
+      "title": "Helicopter Jump",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "720p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "featuring-you",
+        "popular",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "rope-swing",
+      "title": "Rope Swing",
+      "generation_type": "video",
+      "model": "wan_30_reference",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 14,
+      "categories": [
+        "featuring-you",
+        "popular"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "rumpelstiltskin",
+      "title": "Rumpelstiltskin",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "featuring-you",
+        "popular",
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "pool-view",
+      "title": "Pool View",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "featuring-you",
+        "popular"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "sad-love",
+      "title": "Sad Love",
+      "generation_type": "video",
+      "model": null,
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": null,
+      "duration_seconds": null,
+      "categories": [
+        "featuring-you"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "fish-cutter",
+      "title": "Fish Cutter",
+      "generation_type": "video",
+      "model": "wan_30_reference",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 10,
+      "categories": [
+        "featuring-you"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "trampoline",
+      "title": "Trampoline",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "featuring-you"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "fancy-cafe",
+      "title": "Fancy Cafe",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "featuring-you",
+        "popular",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "morning-coffee",
+      "title": "Morning Coffee",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": null,
+      "categories": [
+        "featuring-you",
+        "popular"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "jenner",
+      "title": " Jenner",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "featuring-you",
+        "popular",
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "drakula-cruise",
+      "title": "Drakula Cruise",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "featuring-you",
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-9s]",
+        "[9s-14s]",
+        "[14s-20s]",
+        "[20s-24s]",
+        "[24s-28s]",
+        "[28s-29s]"
+      ]
+    },
+    {
+      "slug": "tilted-melody",
+      "title": "Tilted Melody",
+      "generation_type": "video",
+      "model": "kling_4_omni",
+      "mode": "standart",
+      "resolution": null,
+      "aspect_ratio": "16:9",
+      "duration_seconds": 19,
+      "categories": [
+        "featuring-you",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "beyond-gravity",
+      "title": "Beyond Gravity",
+      "generation_type": "video",
+      "model": "wan_30_edit",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 15,
+      "categories": [
+        "featuring-you",
+        "popular"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "chasing-you",
+      "title": "Chasing You",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "movies",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "cinematic-showcase-2",
+      "title": "Cinematic Showcase 2",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "products",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "cinematic-showcase",
+      "title": "Cinematic Showcase",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "movies",
+        "products",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[CUSTOM LOCATION DESCRIPTION]"
+      ]
+    },
+    {
+      "slug": "basketball-3",
+      "title": "Basketball 3",
+      "generation_type": "video",
+      "model": "wan_30_omni",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 11,
+      "categories": [
+        "featuring-you",
+        "popular",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "god-of-war",
+      "title": "God Of War",
+      "generation_type": "video",
+      "model": "wan_30_edit",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 7,
+      "categories": [
+        "featuring-you"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "reality-shift",
+      "title": "Reality Shift",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 14,
+      "categories": [
+        "popular",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "basketball-2",
+      "title": "Basketball 2",
+      "generation_type": "video",
+      "model": "kling_4_omni",
+      "mode": "standart",
+      "resolution": null,
+      "aspect_ratio": "9:16",
+      "duration_seconds": 19,
+      "categories": [
+        "popular"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "live-stage-performance",
+      "title": "Live Stage Performance",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 17,
+      "categories": [
+        "featuring-you",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "football",
+      "title": "Football",
+      "generation_type": "video",
+      "model": "wan_30_edit",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 14,
+      "categories": [
+        "featuring-you",
+        "popular",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "brixton",
+      "title": "Brixton",
+      "generation_type": "video",
+      "model": "wan_30_reference",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 6,
+      "categories": [
+        "featuring-you",
+        "products",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "basketball",
+      "title": "Basketball",
+      "generation_type": "video",
+      "model": "kling_4_omni",
+      "mode": "standart",
+      "resolution": null,
+      "aspect_ratio": "9:16",
+      "duration_seconds": 10,
+      "categories": [
+        "featuring-you",
+        "popular"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "tesla-object-replace",
+      "title": "Tesla Object Replace",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "popular",
+        "movies",
+        "products",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "playing-chess-with-tesla",
+      "title": "Playing Chess With Tesla",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "featuring-you",
+        "popular",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "tesla-lose-control",
+      "title": "Tesla Lose Control",
+      "generation_type": "video",
+      "model": "wan_30_reference",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "4:3",
+      "duration_seconds": 11,
+      "categories": [
+        "featuring-you",
+        "popular",
+        "movies",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "unforgettable",
+      "title": "Unforgettable",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 15,
+      "categories": [
+        "featuring-you",
+        "movies",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "fly-over-the-teslas",
+      "title": "Fly Over the Tesla's",
+      "generation_type": "video",
+      "model": "wan_30_edit",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 14,
+      "categories": [
+        "popular",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "desire-mode",
+      "title": "Desire Mode",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "featuring-you",
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "license-registration-liftoff",
+      "title": "License, Registration… Liftoff",
+      "generation_type": "video",
+      "model": "wan_30_reference",
+      "mode": null,
+      "resolution": "480P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 13,
+      "categories": [
+        "featuring-you",
+        "popular",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "tesla-started-something",
+      "title": "Tesla Started Something",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "popular",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0:00–0:01]",
+        "[0:01–0:10]",
+        "[0:10–0:12]",
+        "[0:12–0:14]",
+        "[0:14–0:17]"
+      ]
+    },
+    {
+      "slug": "coliseum-drift",
+      "title": "Coliseum Drift",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "4:3",
+      "duration_seconds": 25,
+      "categories": [
+        "featuring-you",
+        "movies",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "natural-viral-makeover",
+      "title": "Natural Viral Makeover",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "products",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "and-i-need-you",
+      "title": "And i Need You",
+      "generation_type": "video",
+      "model": "wan_30_reference",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 13,
+      "categories": [
+        "movies",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "freestyle",
+      "title": "Freestyle",
+      "generation_type": "video",
+      "model": "wan_30_reference",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "popular",
+        "movies",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "just-a-lit-bit",
+      "title": "Just a Lit Bit",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "popular",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "i-am-here",
+      "title": "I Am Here",
+      "generation_type": "video",
+      "model": "wan_30_reference",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 14,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-lost-chase",
+      "title": "The Lost Chase",
+      "generation_type": "video",
+      "model": "wan_30_omni",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 10,
+      "categories": [
+        "popular",
+        "movies",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "somebody",
+      "title": "Somebody",
+      "generation_type": "video",
+      "model": "wan_30_reference",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 13,
+      "categories": [
+        "movies",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "sega",
+      "title": "Sega",
+      "generation_type": "video",
+      "model": "wan_30_reference",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 13,
+      "categories": [
+        "movies",
+        "products",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "burning-bridges",
+      "title": "Burning Bridges",
+      "generation_type": "video",
+      "model": "wan_30_reference",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 14,
+      "categories": [
+        "movies",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "retro-hip-hop-spotlight",
+      "title": "Retro Hip-Hop Spotlight",
+      "generation_type": "video",
+      "model": "wan_30_reference",
+      "mode": null,
+      "resolution": "720P",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 13,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "wheelie-rider",
+      "title": "Wheelie Rider",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "rich-in-30-days",
+      "title": "Rich in 30 Days",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "popular",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "trick-or-skin",
+      "title": "Trick or Skin",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 20,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-wrong-one",
+      "title": "The Wrong One",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 25,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0–3s]",
+        "[3–7s]",
+        "[7–11s]",
+        "[11–15s]",
+        "[15–19s]",
+        "[19–25s]"
+      ]
+    },
+    {
+      "slug": "enchanted-forest-selfie",
+      "title": "Enchanted Forest Selfie",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 20,
+      "categories": [
+        "movies",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "pumpkin-lings",
+      "title": "Pumpkin Lings",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 30,
+      "categories": [
+        "movies",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[Reference Roles]",
+        "[Subject Profile: <Lead>]",
+        "[Generation Goal]",
+        "[Editing and Camera]",
+        "[Light and Colour]",
+        "[The Pumpkin Patch]",
+        "[Shot 1 | 0-3s | Approach]",
+        "[Shot 2 | 3-6s | Instruction]"
+      ]
+    },
+    {
+      "slug": "dont-blow-out-the-pumpkin",
+      "title": "Dont Blow Out the Pumpkin",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 10,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "viral-rap-takeover",
+      "title": "Viral Rap Takeover",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "popular",
+        "realistic"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "urban-broomstick-flight",
+      "title": "Urban Broomstick Flight",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "movies",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "hotel-window-watch",
+      "title": "Hotel Window Watch",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 12,
+      "categories": [
+        "popular",
+        "movies",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0:00–0:03]",
+        "[0:03–0:07.5]",
+        "[0:07.5–0:10]",
+        "[0:10–0:12]"
+      ]
+    },
+    {
+      "slug": "broomstick-flight",
+      "title": "Broomstick Flight",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "movies",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "money-flex",
+      "title": "Money Flex",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "popular",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "epic-slap-knockout",
+      "title": "Epic Slap Knockout",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "popular",
+        "realistic"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "mystery-unboxing",
+      "title": "Mystery Unboxing",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "popular",
+        "products"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "whiskey-gun-trick",
+      "title": "Whiskey Gun Trick",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "popular",
+        "realistic"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "cyber-mask-transformation",
+      "title": "Cyber Mask Transformation",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 12,
+      "categories": [
+        "movies",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "shadow-warriors",
+      "title": "Shadow Warriors",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "crazy-frog-race",
+      "title": "Crazy Frog Race",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "popular"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "fat-parkour",
+      "title": "Fat Parkour",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "popular"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "medieval-runway-look",
+      "title": "Medieval Runway Look",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "epic-train-doorway-scene",
+      "title": "Epic Train Doorway Scene",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 11,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "pizzeria-hide-and-seek",
+      "title": "Pizzeria Hide and Seek",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "3:4",
+      "duration_seconds": 20,
+      "categories": [
+        "movies",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "theater-ceiling-horror",
+      "title": "Theater Ceiling Horror",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "3:4",
+      "duration_seconds": 15,
+      "categories": [
+        "movies",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "studio-ballerina-turns",
+      "title": "Studio Ballerina Turns",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 10,
+      "categories": [
+        "products",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-5s]",
+        "[5s-10s]"
+      ]
+    },
+    {
+      "slug": "escalator-vibe",
+      "title": "Escalator Vibe",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 15,
+      "categories": [
+        "popular"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "little-storm-knight",
+      "title": "Little Storm Knight",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 10,
+      "categories": [
+        "popular",
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "wear-the-moment",
+      "title": "Wear the Moment",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 12,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "wassup-freestyle",
+      "title": "Wassup Freestyle",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "popular"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "piano-vibe",
+      "title": "Piano Vibe",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "popular"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "you-good-max",
+      "title": "You Good, Max?",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "popular"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "reflection-in-the-mirror",
+      "title": "Reflection in the Mirror",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 15,
+      "categories": [
+        "popular"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "car-blows-up",
+      "title": "Car Blows Up",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 13,
+      "categories": [
+        "popular"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[FORMAT]",
+        "[REFERENCES]",
+        "[CAMERA / LOOK]",
+        "[ACTION]",
+        "[IMPORTANT]"
+      ]
+    },
+    {
+      "slug": "saved-by-darkness",
+      "title": "Saved by Darkness",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 30,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0:00–0:05]",
+        "[0:05–0:12]",
+        "[0:12–0:16]",
+        "[0:16–0:30]"
+      ]
+    },
+    {
+      "slug": "doodle-reality",
+      "title": "Doodle Reality",
+      "generation_type": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "9:16",
+      "duration_seconds": null,
+      "categories": [
+        "popular",
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "pumpkin-guardian",
+      "title": "Pumpkin Guardian",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 30,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "fashion-halloween",
+      "title": "Fashion Halloween",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 15,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[CORE STYLE]",
+        "[CAMERA LANGUAGE]",
+        "[EDITING]",
+        "[0–3.5 SEC — PUMPKIN QUEEN]",
+        "[3.5–6.5 SEC — WITCH]",
+        "[6.5–9.5 SEC — VAMPIRE]",
+        "[9.5–12.5 SEC — DARK DEMON]",
+        "[12.5–15 SEC — FINAL]"
+      ]
+    },
+    {
+      "slug": "thrille",
+      "title": "Thrille",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 10,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "ghost-makeover",
+      "title": "Ghost Makeover",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 20,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0:00–0:03]",
+        "[0:03–0:06]",
+        "[0:06–0:09.0]",
+        "[0:09.0–0:12.0]",
+        "[0:12.0–0:20.0]"
+      ]
+    },
+    {
+      "slug": "cash-flow",
+      "title": "Cash Flow",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 15,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "cliffside-silence",
+      "title": "Cliffside Silence",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "stitched-with-knots",
+      "title": "Stitched With Knots",
+      "generation_type": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "5:4",
+      "duration_seconds": null,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "handcrafted-collage-artwork",
+      "title": "Handcrafted Collage Artwork",
+      "generation_type": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "9:16",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "disney-illustration",
+      "title": "Disney illustration",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "9:16",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "icon-duet",
+      "title": "Icon Duet",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "raindance",
+      "title": "Raindance",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "kieza-dance-flow",
+      "title": "Kieza Dance Flow",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "popular"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "call-the-car",
+      "title": "Call the Car",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "popular"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "haunted-motion",
+      "title": "Haunted Motion",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 12,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "my-other-hobby",
+      "title": "My Other Hobby",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[depth map control]",
+        "[repeat timing from @video1]",
+        "[follow @video1 timing]"
+      ]
+    },
+    {
+      "slug": "one-last-embrace",
+      "title": "One Last Embrace",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 24,
+      "categories": [
+        "popular",
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[WARDROBE TRANSFORMATION]",
+        "[SCENE 1 · 0–10s · THE PRESENT]",
+        "[0–2s]",
+        "[2–3.5s]",
+        "[4.5–8s]",
+        "[8–10s]",
+        "[SCENE 2 · 10–24s · THE MEMORY]",
+        "[10–12s]"
+      ]
+    },
+    {
+      "slug": "lil-yachti-coffin",
+      "title": "Lil Yachti Coffin",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 30,
+      "categories": [
+        "popular"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "birthday-drift",
+      "title": "Birthday Drift",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 8,
+      "categories": [
+        "popular",
+        "celebrations"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "birthday-morning",
+      "title": "Birthday Morning",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 8,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "jean-phil",
+      "title": "Jean Phil",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "3-meters",
+      "title": "Three Steps Above Heaven",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "3:4",
+      "duration_seconds": 15,
+      "categories": [],
+      "stand_in": false,
+      "slots": [
+        "[0s-6s]",
+        "[6s — HARD CUT]",
+        "[6s-7s]",
+        "[7s-11s]",
+        "[11s — HARD CUT]",
+        "[11s-15s]",
+        "[6s-11s]"
+      ]
+    },
+    {
+      "slug": "burning-stage",
+      "title": "Burning Stage",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 27,
+      "categories": [],
+      "stand_in": false,
+      "slots": [
+        "[0s-11s]",
+        "[11s-19s]",
+        "[19s-27s]"
+      ]
+    },
+    {
+      "slug": "pumpkin-night",
+      "title": "Pumpkin Night",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "off-duty",
+      "title": "Off Duty",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "4:3",
+      "duration_seconds": 17,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "motion-authority",
+      "title": "Motion Authority",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 18,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "hero-drive",
+      "title": "Hero Drive",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 11,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "cinematic-car-drop",
+      "title": "Cinematic Car Drop",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "480p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "cinematic-tech-product-shot",
+      "title": "Cinematic tech product shot",
+      "generation_type": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[PRODUCT]"
+      ]
+    },
+    {
+      "slug": "iridescent-3d-tech-render",
+      "title": "Iridescent 3D tech render",
+      "generation_type": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[PRODUCT]"
+      ]
+    },
+    {
+      "slug": "shattered-metallic-3d-art",
+      "title": "Shattered metallic 3D art",
+      "generation_type": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[PRODUCT]"
+      ]
+    },
+    {
+      "slug": "big-stepper",
+      "title": "Big Stepper",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "rooftop-shepherd",
+      "title": "Rooftop Shepherd",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 9,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "beyond-the-frame",
+      "title": "Beyond the Frame",
+      "generation_type": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "riding-the-bear",
+      "title": "Riding the Bear",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 6,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "spider-dance",
+      "title": "Spider Dance",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 14,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-4s]",
+        "[4s-8s]",
+        "[8s-11s]",
+        "[11s-14s]"
+      ]
+    },
+    {
+      "slug": "under-the-rain",
+      "title": "Under the Rain",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "2:3",
+      "duration_seconds": null,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "matrix-bullet-dodge",
+      "title": "Matrix Bullet Dodge",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 11,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-2s]",
+        "[2s-4s]",
+        "[4s-8s]",
+        "[8s-11s]"
+      ]
+    },
+    {
+      "slug": "xp-daydream",
+      "title": "XP Daydream",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 12,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "fisheye-streetwear-drop",
+      "title": "Fisheye Streetwear Drop",
+      "generation_type": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "9:16",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "toy-to-torque",
+      "title": "Toy to Torque",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 10,
+      "categories": [],
+      "stand_in": false,
+      "slots": [
+        "[0s–2s]",
+        "[2s–4s]",
+        "[4s–7s]",
+        "[7s–8s]",
+        "[8s–10s]"
+      ]
+    },
+    {
+      "slug": "catch-the-look",
+      "title": "Catch the Look",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 10,
+      "categories": [
+        "movies",
+        "products"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s–2s]",
+        "[2s–4s]",
+        "[4s–6s]",
+        "[6s–8s]",
+        "[8s–10s]"
+      ]
+    },
+    {
+      "slug": "groovy-golf-shot",
+      "title": "Groovy Golf Shot",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 12,
+      "categories": [],
+      "stand_in": true,
+      "slots": [
+        "[0s–2s]",
+        "[2s–3s]",
+        "[3s–8s]",
+        "[8s–12s]"
+      ]
+    },
+    {
+      "slug": "morning-parking-vibe",
+      "title": "Morning Parking Vibe",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 20,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "fish-eye",
+      "title": "Fish Eye ",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "4K",
+      "aspect_ratio": "4:5",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "raw-red-sketch",
+      "title": "Raw Red Sketch",
+      "generation_type": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "4:5",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "frozen-getaway",
+      "title": "Frozen Getaway",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 12,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-1s]",
+        "[1s-2s]",
+        "[2s-4s]",
+        "[4s-5s]",
+        "[5s-6s]",
+        "[6s-8s]",
+        "[8s-9s]",
+        "[9s-10s]"
+      ]
+    },
+    {
+      "slug": "midair-photo",
+      "title": "Midair Photo",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 9,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "fan-change",
+      "title": "Fan Change",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 10,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "hotel-lobby-2",
+      "title": "Hotel Lobby 2",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "4:3",
+      "duration_seconds": 29,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "hotel-lobby",
+      "title": "Hotel Lobby",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "4:3",
+      "duration_seconds": 29,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "through-the-cloudline",
+      "title": "Through the Cloudline",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "3:4",
+      "duration_seconds": 12,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0s-3s]",
+        "[3s-5s]",
+        "[5s-7s]",
+        "[7s-9s]",
+        "[9s-10s]",
+        "[10s-12s]"
+      ]
+    },
+    {
+      "slug": "cube-illustration-style",
+      "title": "Cube Illustration Style",
+      "generation_type": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "vice-city-popart-2",
+      "title": "Vice City PopArt 2",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "4:5",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "vice-city-popart-1",
+      "title": "Vice City PopArt 1",
+      "generation_type": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "moody-filter",
+      "title": "Moody Filter",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "2:3",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "particle-filter",
+      "title": "Particle Filter",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "2:3",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "red-light-filter",
+      "title": "Red Light Filter",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "2:3",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "2000s-filter",
+      "title": "2000s Filter",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "2:3",
+      "duration_seconds": null,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "ccd-night-shot-filter",
+      "title": "CCD Night Shot Filter",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "dark-aesthetic-filter",
+      "title": "Dark Aesthetic Filter",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "cinematic-filter",
+      "title": "Cinematic Filter",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "iphone-blurry-effect",
+      "title": "iPhone Blurry Effect",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "triptych-shooting",
+      "title": "Triptych shooting",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "4K",
+      "aspect_ratio": "9:16",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[DESCRIBE YOUR LOCATION HERE]"
+      ]
+    },
+    {
+      "slug": "bunny-taxi",
+      "title": "Bunny Taxi",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 15,
+      "categories": [],
+      "stand_in": false,
+      "slots": [
+        "[Reference]",
+        "[Concept and Visual Treatment]",
+        "[Shot Sequence]",
+        "[Music and Sound]",
+        "[Continuity]"
+      ]
+    },
+    {
+      "slug": "best-friend",
+      "title": "Best Friend",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 13,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "blocked-light",
+      "title": "Blocked Light",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [],
+      "stand_in": false,
+      "slots": [
+        "[00:00–00:03]",
+        "[00:03–00:06]",
+        "[00:06–00:09]",
+        "[00:09–00:12]",
+        "[00:12–00:15]"
+      ]
+    },
+    {
+      "slug": "anothers-opinion",
+      "title": "Another's Opinion",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 15,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "jogging-in-the-subway",
+      "title": "Jogging in the Subway",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 15,
+      "categories": [],
+      "stand_in": false,
+      "slots": [
+        "[Character]",
+        "[Environment]",
+        "[Style]",
+        "[TIMING AND ANGLES — STRICT STRUCTURE]",
+        "[Action in Angle 2]",
+        "[Sound]"
+      ]
+    },
+    {
+      "slug": "butterfly-effect",
+      "title": "Butterfly Effect",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 8,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "tentacle-breakout",
+      "title": "Tentacle Breakout",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 14,
+      "categories": [
+        "movies",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "rain-rider",
+      "title": "Rain Rider",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 11,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "midnight-run",
+      "title": "Midnight Run",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 12,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "bubble-head",
+      "title": "Bubble Head",
+      "generation_type": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "birthday-shot",
+      "title": "Birthday Shot",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 10,
+      "categories": [
+        "celebrations",
+        "realistic"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "popcorn-eruption",
+      "title": "Popcorn Eruption",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 15,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "rescue-myself",
+      "title": "Rescue Myself",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 15,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "among-sheep",
+      "title": "Among Sheep",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 30,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "quick-change-2",
+      "title": "Quick Change 2",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 20,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "quick-change",
+      "title": "Quick Change",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 18,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "desert-train-heist",
+      "title": "Desert Train Heist",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 18,
+      "categories": [
+        "movies",
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "kissed-in-silence",
+      "title": "Kissed in Silence",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "midnight-fuel-stop",
+      "title": "Midnight Fuel Stop",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "black-horsepower",
+      "title": "Black Horsepower",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "face-the-dark",
+      "title": "Face the Dark",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "upside-down-habit",
+      "title": "Upside Down Habit",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "roof-jump",
+      "title": "Roof Jump",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 12,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "glass-cube",
+      "title": "Glass Cube",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 16,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "storm-starring",
+      "title": "Storm Starring",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "edit",
+      "resolution": "720p",
+      "aspect_ratio": "adaptive",
+      "duration_seconds": 0,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "spilled-into-love",
+      "title": "Spilled Into Love",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 27,
+      "categories": [],
+      "stand_in": false,
+      "slots": [
+        "[0:00 – 0:07]",
+        "[0:07 – 0:11]",
+        "[0:11 – 0:15]",
+        "[0:15 – 0:17]",
+        "[0:17 – 0:27]"
+      ]
+    },
+    {
+      "slug": "still-my-friend",
+      "title": "Still My Friend",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 30,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "stylized-caricature",
+      "title": "Stylized Caricature",
+      "generation_type": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "4:5",
+      "duration_seconds": null,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-train-rushes-by",
+      "title": "The Train Rushes By",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 10,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "who-was-that-business",
+      "title": "Who was that? Business",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "4:3",
+      "duration_seconds": 25,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[00:00 – 00:03]",
+        "[00:03 – 00:19]",
+        "[00:19 – 00:25]"
+      ]
+    },
+    {
+      "slug": "a-moment-between-strangers",
+      "title": "A Moment Between Strangers",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "4:3",
+      "duration_seconds": 20,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "subway-fight",
+      "title": "Subway Fight",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 20,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[TASK & FORMAT]",
+        "[REFERENCES]",
+        "[SCENE / SUBJECTS]",
+        "[TIMELINE / SHOTS]",
+        "[CAMERA]",
+        "[LIGHTING / MATERIALS / PHYSICS]",
+        "[AUDIO]",
+        "[CONTINUITY & CONSTRAINTS]"
+      ]
+    },
+    {
+      "slug": "formula-1-documentary",
+      "title": "F1 Documentary",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 30,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "sims-style",
+      "title": "Sims Style",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "4:5",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "wing-backflip",
+      "title": "Wing Backflip",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 16,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-giant-caretaker",
+      "title": "The Giant Caretaker",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 18,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "ugly-and-funny-doodle-2",
+      "title": "Ugly and Funny Doodle 2",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "ugly-and-funny-doodle",
+      "title": "Ugly and Funny Doodle",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "bed-trap",
+      "title": "Bed Trap",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 10,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "ocean-car-sinking",
+      "title": "Ocean Car Sinking",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 12,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "vice-city-freefall",
+      "title": "Vice City Freefall",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 12,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "viral-doodle",
+      "title": "Viral Doodle",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "2:3",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "edge-of-victory",
+      "title": "Edge of Victory",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 10,
+      "categories": [
+        "products",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "what-falls-next",
+      "title": "What Falls Next",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 12,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "gta-vi-style",
+      "title": "GTA VI Style",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "9:16",
+      "duration_seconds": null,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-push-2",
+      "title": "The Push 2",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 18,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-push",
+      "title": "The Push",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 18,
+      "categories": [
+        "movies",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "office-kitchen",
+      "title": "Office Kitchen",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 20,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "catch-of-the-day",
+      "title": "Catch of the Day",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 12,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "monumental-type-silhouette",
+      "title": "Monumental Type Silhouette",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "9:16",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[BRAND / PRODUCT NAME]",
+        "[KEYWORD 1]",
+        "[KEYWORD 2]",
+        "[KEYWORD 3]"
+      ]
+    },
+    {
+      "slug": "bold-type-product",
+      "title": "Bold Type Product",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "9:16",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[PRODUCT NAME]",
+        "[PRODUCT CATEGORY / TAGLINE]"
+      ]
+    },
+    {
+      "slug": "vacuum-sealed-display",
+      "title": "Vacuum Sealed Display",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "9:16",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[PRODUCT NAME]"
+      ]
+    },
+    {
+      "slug": "frozen-product-burial",
+      "title": "Frozen Product Burial",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "9:16",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "monochrome-luxury-typography",
+      "title": "Monochrome Luxury Typography",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "9:16",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "desert-branch-editorial",
+      "title": "Desert Branch Editorial",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "4:5",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-beast-awakens",
+      "title": "The Beast Awakens",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 15,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "grab-heist",
+      "title": "Grab Heist",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 12,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "office-escape",
+      "title": "Office Dream",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 19,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "lego-style",
+      "title": "Lego Style",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "4:5",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "gta-sa-style",
+      "title": "GTA:SA Style",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "2:3",
+      "duration_seconds": null,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "animal-pov-to-the-club",
+      "title": "Animal POV to the Club",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 14,
+      "categories": [],
+      "stand_in": false,
+      "slots": [
+        "[00:00-02:00]",
+        "[02:00-05:00]",
+        "[05:00-07:30]",
+        "[07:30-08:30]",
+        "[08:30-14:00]"
+      ]
+    },
+    {
+      "slug": "sketch-to-real-car",
+      "title": "Sketch to Real Car",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 5,
+      "categories": [],
+      "stand_in": false,
+      "slots": [
+        "[00:00-00:02]",
+        "[00:02-00:03]",
+        "[00:03-00:05]"
+      ]
+    },
+    {
+      "slug": "car-sky-fall",
+      "title": "Car Sky Fall",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 5,
+      "categories": [],
+      "stand_in": false,
+      "slots": [
+        "[00:00-02:00]",
+        "[02:00-03:00]",
+        "[03:00-05:00]"
+      ]
+    },
+    {
+      "slug": "on-game",
+      "title": "On Game",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 20,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[00:00 - 00:04]",
+        "[00:04 - 00:05]",
+        "[00:05 - 00:10]",
+        "[00:10 - 00:16]",
+        "[00:16 - 00:20]"
+      ]
+    },
+    {
+      "slug": "frozen-time",
+      "title": "Frozen Time",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 13,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[00:00 - 00:03]",
+        "[00:03 - 00:05]",
+        "[00:05 - 00:09]",
+        "[00:09 - 00:13]",
+        "[00:03 - 00:09]"
+      ]
+    },
+    {
+      "slug": "with-animal",
+      "title": "Cat's Eye",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 8,
+      "categories": [],
+      "stand_in": false,
+      "slots": [
+        "[00:00 - 00:02]",
+        "[00:02 - 00:05]",
+        "[00:05 - 00:08]"
+      ]
+    },
+    {
+      "slug": "remote-control",
+      "title": "Remote Control",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 20,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[00:00 - 00:04]",
+        "[00:04 - 00:09]",
+        "[00:09 - 00:15]",
+        "[00:15 - 00:20]"
+      ]
+    },
+    {
+      "slug": "breaking-good",
+      "title": "Breaking Good",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 13,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0–2s | WIDE SHOT | ESTABLISHING]",
+        "[2–4s | MEDIUM SHOT | THE RAID]",
+        "[4–6s | REVEAL | THE TURN]",
+        "[6–9s | ACTION SHOT | THE OFFERING]",
+        "[9–11s | CLIMAX | THE SMILE]",
+        "[11–13s | BUTTON | FINAL BEAT]"
+      ]
+    },
+    {
+      "slug": "the-spirit",
+      "title": "The Spirit",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 13,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0–2s | WIDE SHOT | ESTABLISHING]",
+        "[3–5s | MEDIUM SHOT | THE SPIRIT APPEARS]",
+        "[5–7s | ACTION SHOT | FIRST CLASH]",
+        "[11–13s | CLIMAX | THE GRAPPLE]"
+      ]
+    },
+    {
+      "slug": "on-the-road",
+      "title": "On the Road",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 12,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "on-the-wave",
+      "title": "On the Wave",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0–5s]",
+        "[5–9s]",
+        "[9–15s]"
+      ]
+    },
+    {
+      "slug": "the-crown",
+      "title": "The Crown",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0–3 sec]",
+        "[4–9 sec]",
+        "[10–12 sec]",
+        "[13–15 sec]"
+      ]
+    },
+    {
+      "slug": "dragon-lord",
+      "title": "Dragon Lord",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 10,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0–3 sec]",
+        "[4–7 sec]",
+        "[8–10 sec]"
+      ]
+    },
+    {
+      "slug": "noir-film",
+      "title": "Noir Film",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0–4 sec]",
+        "[5–8 sec]",
+        "[9–12 sec]",
+        "[13–15 sec]"
+      ]
+    },
+    {
+      "slug": "desert-rider",
+      "title": "Desert Rider",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0–4 sec]",
+        "[5–9 sec]",
+        "[10–15 sec]"
+      ]
+    },
+    {
+      "slug": "behind-the-scenes",
+      "title": "Behind The Scenes",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 18,
+      "categories": [
+        "movies",
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0-3 s]",
+        "[3-8 s]",
+        "[8-13 s]",
+        "[13-17 s]",
+        "[17-20 s]"
+      ]
+    },
+    {
+      "slug": "split-jump",
+      "title": "Split Jump",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 9,
+      "categories": [],
+      "stand_in": false,
+      "slots": [
+        "[0s-1s]",
+        "[1s-3s]",
+        "[3s-5s]",
+        "[5s-8s]",
+        "[8s-9s]",
+        "[3s-4s]",
+        "[3s]",
+        "[5s-7s]"
+      ]
+    },
+    {
+      "slug": "impact",
+      "title": "Impact",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 10,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[SHOT 1 — 0:00–1.5s]",
+        "[SHOT 2 — 1.5–3.0s]",
+        "[SHOT 3 — 3.0–4.5s]",
+        "[SHOT 4 — 4.5–5.5s]",
+        "[SHOT 5 — 5.5–6.5s]",
+        "[SHOT 6 — 6.5–7.5s]",
+        "[SHOT 7 — 7.5–8.5s]",
+        "[SHOT 8 — 8.5–9.2s]"
+      ]
+    },
+    {
+      "slug": "tomb-rider",
+      "title": "Tomb Rider",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 10,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[SHOT 1 — 0:00–0.8s]",
+        "[SHOT 2 — 0.8–1.5s]",
+        "[SHOT 3 — 1.5–2.2s]",
+        "[SHOT 4 — 2.2–3.0s]",
+        "[SHOT 5 — 3.0–3.8s]",
+        "[SHOT 6 — 3.8–4.5s]",
+        "[SHOT 7 — 4.5–5.0s]"
+      ]
+    },
+    {
+      "slug": "alice-in-wonderland",
+      "title": "Alice in Wonderland",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [],
+      "stand_in": false,
+      "slots": [
+        "[0:00–2s]",
+        "[2–4s]",
+        "[4–6s]",
+        "[6–8.5s]",
+        "[8.5–10.5s]",
+        "[10.5–12s]",
+        "[12–13.5s]",
+        "[13.5–15s]"
+      ]
+    },
+    {
+      "slug": "born-from-sand",
+      "title": "Born From Sand",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 10,
+      "categories": [],
+      "stand_in": false,
+      "slots": [
+        "[1 — 0:00–2.0s]",
+        "[2 — 2.0–3.5s]",
+        "[3 — 3.5–5.0s]",
+        "[4 — 5.0–6.0s]",
+        "[5 — 6.0–7.0s]",
+        "[6 — 7.0–8.2s]",
+        "[7 — 8.2–9.2s]",
+        "[8 — 9.2–10.0s]"
+      ]
+    },
+    {
+      "slug": "black-white-2",
+      "title": "Black & White",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "cinematic-portrait",
+      "title": "Cinematic Portrait",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "hotel-corridor",
+      "title": "Hotel Corridor",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "pool-toys",
+      "title": "Pool Toys",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "climbing",
+      "title": "Climbing",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "stained-glass-window",
+      "title": "Stained Glass Window",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "duration_seconds": null,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "black-white",
+      "title": "Black & White",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "framed-poster",
+      "title": "Framed Poster",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "4:3",
+      "duration_seconds": null,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "sunflower-field",
+      "title": "Sunflower Field",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "duration_seconds": null,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "massive-ocean-wave",
+      "title": "Massive Ocean Wave",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "16:9",
+      "duration_seconds": null,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "towering-cliffs",
+      "title": "Towering Cliffs",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "swim-rings",
+      "title": "Swim Rings",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "giant-footballs",
+      "title": "Giant Footballs",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "enormous-basketballs",
+      "title": "Enormous Basketballs",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "borscht",
+      "title": "Borscht",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "duration_seconds": null,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "huge-model",
+      "title": "Huge Model",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "bottle-of-red-wine",
+      "title": "Bottle of Red Wine",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "duration_seconds": null,
+      "categories": [
+        "realistic"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "levitation",
+      "title": "Levitation",
+      "generation_type": "video",
+      "model": "kling_image2video",
+      "mode": "hd",
+      "resolution": null,
+      "aspect_ratio": null,
+      "duration_seconds": 6,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "freefall",
+      "title": "Freefall",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 10,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "on-a-swimming-pool",
+      "title": "On a Swimming Pool",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "melting-deforming",
+      "title": "Melting & Deforming",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "a-wet-transparent-glass",
+      "title": "A Wet Transparent Glass",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "gentle-monster-disney",
+      "title": "Gentle Monster × Disney",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0:00–5s]",
+        "[5:00–10s]",
+        "[10:00–15s]"
+      ]
+    },
+    {
+      "slug": "composition-of-yuzu",
+      "title": "Composition of Yuzu",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "floral-perfume-campaign",
+      "title": "Floral Perfume Campaign",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-glass",
+      "title": "The Glass",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "silhouette",
+      "title": "Silhouette",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "2:3",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "stretch-effect",
+      "title": "Stretch Effect",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "monochromatic",
+      "title": "Monochromatic",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "football-goal",
+      "title": "Football Goal",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "sneaker-campaign",
+      "title": "Sneaker Campaign",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "a-clear-bottle",
+      "title": "A Clear Bottle",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "pomegranate-jewel",
+      "title": "Pomegranate Jewel",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "9:16",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "rotation-360",
+      "title": "Rotation 360",
+      "generation_type": "video",
+      "model": "kling_image2video",
+      "mode": "hd",
+      "resolution": null,
+      "aspect_ratio": null,
+      "duration_seconds": 6,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "perfume-campaign",
+      "title": "Perfume Campaign",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "wool-material",
+      "title": "Wool Material",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "countryside-fashion-story",
+      "title": "Countryside Fashion Story",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "9:16",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "a-few-chickens",
+      "title": "A few Chickens",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "plush-forest",
+      "title": "Plush Forest",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "underwater-huggs",
+      "title": "Underwater Huggs",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "horse-pony",
+      "title": "Horse Pony",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "decorative-peach",
+      "title": "Decorative Peach",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "9:16",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-paint",
+      "title": "The Paint",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "soft-strawberry",
+      "title": "Soft Strawberry",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "9:16",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "waves-of-water",
+      "title": "Waves of Water",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "vr-headset-parts",
+      "title": "VR Headset Parts",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "floating-island",
+      "title": "Floating Island",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "4K",
+      "aspect_ratio": "4:5",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "plastic-toy-tractor",
+      "title": "Plastic Toy Tractor",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "9:16",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "crystal-chandelier",
+      "title": "Crystal Chandelier",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "albino",
+      "title": "Albino",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "dark-couture",
+      "title": "Dark Couture",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 10,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "stadium-seats",
+      "title": "Stadium Seats",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-car-roof",
+      "title": "The Car Roof",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "misty-hills",
+      "title": "Misty Hills",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "chrome-lakers",
+      "title": "Chrome Lakers",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "vintage-typewriter",
+      "title": "Vintage Typewriter",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "distortion-effect-2",
+      "title": "Distortion Effect 2",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "4:5",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "on-top-of-the-glass",
+      "title": "On Top of The Glass",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "distortion-effect",
+      "title": "Distortion Effect",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "above-the-head",
+      "title": "Above The Head",
+      "generation_type": "video",
+      "model": "grok_15_i2v",
+      "mode": null,
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 6,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "room-underwater",
+      "title": "Room Underwater",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "magical-reality",
+      "title": "Magical Reality",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "underground-cavern-city",
+      "title": "Underground Cavern City",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "golden-city",
+      "title": "Golden City",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-silence",
+      "title": "The Silence",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "stone-bridge",
+      "title": "Stone Bridge",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-fall",
+      "title": "The Fall",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "flower-jump-rope",
+      "title": "Flower Jump Rope",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "vintage-mirror",
+      "title": "Vintage Mirror",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "9:16",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "glowing-energy",
+      "title": "Glowing Energy",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "chaos-on-the-battlefield",
+      "title": "Chaos on the Battlefield",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "golden-crown",
+      "title": "Golden Crown",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "cosmic-diva",
+      "title": "Cosmic Diva",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": true,
+      "slots": []
+    },
+    {
+      "slug": "the-stone-statue",
+      "title": "The Stone Statue",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "plush-surrealism",
+      "title": "Plush Surrealism",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "2:3",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "storm-warrior",
+      "title": "Storm Warrior",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-last-flame",
+      "title": "The Last Flame",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "cartoons",
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "pov-avatar",
+      "title": "POV Avatar",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "night-garden",
+      "title": "Night Garden",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "4K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "copy-machine",
+      "title": "Copy Machine",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "4:5",
+      "duration_seconds": null,
+      "categories": [
+        "movies",
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "glamorous",
+      "title": "Glamorous",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "4K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "overgrown-garden",
+      "title": "Overgrown Garden",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "4K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-dune",
+      "title": "The Dune",
+      "generation_type": "video",
+      "model": "flux3_t2v",
+      "mode": null,
+      "resolution": "fhd",
+      "aspect_ratio": "21:9",
+      "duration_seconds": 12,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "fisheye-lens",
+      "title": "Fisheye Lens",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "4K",
+      "aspect_ratio": "4:5",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[Skin & Makeup Details]",
+        "[Hair Details]",
+        "[Accessory Details]",
+        "[Outfit Details]",
+        "[Pose]",
+        "[Background & Atmosphere]",
+        "[Lighting]",
+        "[Color Tone]"
+      ]
+    },
+    {
+      "slug": "pov-dragon-flight",
+      "title": "POV Dragon Flight",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 30,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "red-crystal-amulet",
+      "title": "Red Crystal Amulet",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "flying-elf",
+      "title": "Flying Elf",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "4K",
+      "aspect_ratio": "16:9",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "racing-car",
+      "title": "Racing Car",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "4K",
+      "aspect_ratio": "4:5",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "vhs-cassette",
+      "title": "VHS Cassette",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-machine",
+      "title": "The Machine",
+      "generation_type": "video",
+      "model": "flux3_t2v",
+      "mode": null,
+      "resolution": "fhd",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "men-in-black",
+      "title": "Men in Black",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "city-tunnel",
+      "title": "City Tunnel",
+      "generation_type": "video",
+      "model": "flux3_t2v",
+      "mode": null,
+      "resolution": "fhd",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 10,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "cctv",
+      "title": "CCTV",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "mexican-gas-station",
+      "title": "Mexican Gas Station",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "4:5",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "wedge-tornado",
+      "title": "Wedge Tornado",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "plastic-blaster",
+      "title": "Plastic Blaster",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "4K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "glowing-butterflies",
+      "title": "Glowing Butterflies ",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "industrial",
+      "title": "Industrial",
+      "generation_type": "video",
+      "model": "flux3_t2v",
+      "mode": null,
+      "resolution": "fhd",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 10,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "ice-golem",
+      "title": "Ice Golem",
+      "generation_type": "video",
+      "model": "flux3_i2v",
+      "mode": null,
+      "resolution": "fhd",
+      "aspect_ratio": "auto",
+      "duration_seconds": 15,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "dark-horror",
+      "title": "Dark Horror",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[00:00-00:03]",
+        "[00:03-00:06]",
+        "[00:06-00:09]",
+        "[00:09-00:12]",
+        "[00:12-00:15]"
+      ]
+    },
+    {
+      "slug": "chess-board",
+      "title": "Chess Board",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "4K",
+      "aspect_ratio": "16:9",
+      "duration_seconds": null,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "vampire-blood-moon",
+      "title": "Vampire Blood Moon",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 10,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[00:00–00:05]",
+        "[00:05–00:10]"
+      ]
+    },
+    {
+      "slug": "majestic-stag",
+      "title": "Majestic Stag",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "elegant-queen",
+      "title": "Elegant Queen",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "demon-warrior",
+      "title": "Demon Warrior",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "village-in-spring",
+      "title": "Village in Spring",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "noh-mask",
+      "title": "Noh Mask",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "berserk",
+      "title": "Berserk",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "girl-with-a-dragon",
+      "title": "Girl With a Dragon",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "three-armed-operatives",
+      "title": "Three Armed Operatives",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "jazz-lounge",
+      "title": "Jazz & Lounge",
+      "generation_type": "video",
+      "model": "grok_15_i2v",
+      "mode": null,
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 9,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "red-dragon",
+      "title": "Red Dragon",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "classroom",
+      "title": "Classroom",
+      "generation_type": "video",
+      "model": "grok_i2v",
+      "mode": null,
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 10,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "black-racing-suit",
+      "title": "Black Racing Suit",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "games-together",
+      "title": "Games Together",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "burning-crimson",
+      "title": "Burning Crimson",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-red-thread",
+      "title": "The Red Thread",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[REFERENCE]",
+        "[STYLE]",
+        "[CHARACTER CONSISTENCY MANDATE]",
+        "[FOCUS]",
+        "[0.0s – 1.9s]",
+        "[1.9s – 3.8s]",
+        "[3.8s – 5.6s]",
+        "[5.6s – 7.5s]"
+      ]
+    },
+    {
+      "slug": "armored-knight",
+      "title": "Armored Knight",
+      "generation_type": "video",
+      "model": "kling_image2video",
+      "mode": "hd",
+      "resolution": null,
+      "aspect_ratio": null,
+      "duration_seconds": 10,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "red-koi-fish",
+      "title": "Red Koi Fish",
+      "generation_type": "video",
+      "model": "kling_image2video",
+      "mode": "hd",
+      "resolution": null,
+      "aspect_ratio": null,
+      "duration_seconds": 11,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "fierce-warrior",
+      "title": "Fierce Warrior",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "shrine-maiden",
+      "title": "Shrine Maiden",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "masked-oni-fox",
+      "title": "Masked Oni-Fox ",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "demon-slayer",
+      "title": "Demon Slayer",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "pirate-captain",
+      "title": "Pirate Captain",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "bamboo-forest",
+      "title": "Bamboo Forest",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "torn-black-kimono",
+      "title": "Torn Black Kimono",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "young-samurai",
+      "title": "Young Samurai ",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "japanese-anime-frame",
+      "title": "Japanese Anime Frame",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "wonka-world",
+      "title": "Wonka World",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "cozy-scene",
+      "title": "Cozy Scene",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "harmonia",
+      "title": "Harmonia",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "a-tiny-lego",
+      "title": "A Tiny LEGO",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "urban-caricature",
+      "title": "Urban Caricature",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "4:5",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "a-meal-made-together",
+      "title": "A Meal Made Together",
+      "generation_type": "video",
+      "model": null,
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": null,
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[REFERENCE]",
+        "[STYLE]",
+        "[CHARACTER CONSISTENCY MANDATE]",
+        "[FOCUS]",
+        "[0.0s – 1.9s]",
+        "[1.9s – 3.8s]",
+        "[3.8s – 5.6s]",
+        "[5.6s – 7.5s]"
+      ]
+    },
+    {
+      "slug": "dont-touch-the-braids",
+      "title": "Don't Touch The Braids",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "medieval-fantasy",
+      "title": "Medieval Fantasy",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "4K",
+      "aspect_ratio": "16:9",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "victorian-ghost",
+      "title": "Victorian Ghost",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-lost-ghost",
+      "title": "The Lost Ghost",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "plastic-toy-2",
+      "title": "Plastic Toy 2",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "4:5",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "absurdist-claymation",
+      "title": "Absurdist Claymation",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "geometric-cubist",
+      "title": "Geometric Cubist",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "soft-toy",
+      "title": "Soft Toy",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "9:16",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-mouse-king",
+      "title": "The Mouse King",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[REFERENCE]",
+        "[STYLE]",
+        "[CHARACTER CONSISTENCY MANDATE]",
+        "[FOCUS]",
+        "[0.0s – 1.9s]",
+        "[1.9s – 3.8s]",
+        "[3.8s – 5.6s]",
+        "[5.6s – 7.5s]"
+      ]
+    },
+    {
+      "slug": "plastic-toy",
+      "title": "Plastic Toy",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "4:3",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons",
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-frantics",
+      "title": "The Frantics",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "whimsical-gothic",
+      "title": "Whimsical Gothic",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "4:3",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "flat-vector-2",
+      "title": "Flat Vector 2",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "4:3",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "pop-art",
+      "title": "Pop Art",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "last-supper",
+      "title": "Last Supper",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[REFERENCE]",
+        "[STYLE]",
+        "[CHARACTER CONSISTENCY MANDATE]",
+        "[FOCUS]",
+        "[0.0s – 1.9s]",
+        "[1.9s – 3.8s]",
+        "[3.8s – 5.6s]",
+        "[5.6s – 7.5s]"
+      ]
+    },
+    {
+      "slug": "gothic-cartoon",
+      "title": "Gothic Cartoon",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "glossy-balloons",
+      "title": "Glossy Balloons",
+      "generation_type": "image",
+      "model": "seedream-5.0-pro",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "painterly-frame",
+      "title": "Painterly Frame",
+      "generation_type": "image",
+      "model": "banana2",
+      "mode": null,
+      "resolution": "2K",
+      "aspect_ratio": "4:3",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "campaign-poster",
+      "title": "Campaign Poster",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "4:3",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[SYNTX.AI]"
+      ]
+    },
+    {
+      "slug": "flat-vector",
+      "title": "Flat Vector",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "4:3",
+      "duration_seconds": null,
+      "categories": [
+        "cartoons"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "wide-angle-perspective",
+      "title": "Wide-Angle Perspective",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "4:5",
+      "duration_seconds": null,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "rich-burgundy",
+      "title": "Rich Burgundy",
+      "generation_type": "image",
+      "model": null,
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": null,
+      "duration_seconds": null,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "chill-out",
+      "title": "Chill Out",
+      "generation_type": "image",
+      "model": "banana3",
+      "mode": null,
+      "resolution": "4K",
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "bunny-peonies",
+      "title": "Bunny & Peonies",
+      "generation_type": "image",
+      "model": "gpt-image-2",
+      "mode": null,
+      "resolution": null,
+      "aspect_ratio": "3:4",
+      "duration_seconds": null,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "jellyfish-airlines",
+      "title": "Jellyfish Airlines",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0:00–4s]",
+        "[4:00–8s]",
+        "[8:00–12s]",
+        "[12:00–15s]"
+      ]
+    },
+    {
+      "slug": "dandelion-ball",
+      "title": "Dandelion Ball",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "firebird",
+      "title": "Firebird",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "x-ray-matter",
+      "title": "X-Ray Matter",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 20,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": [
+        "[0:00–6s]",
+        "[0:00–3s]",
+        "[3:00–5s]",
+        "[5:00–6s]",
+        "[6:00–8s]",
+        "[8:00–15s]",
+        "[8:00–9s]",
+        "[9:00–10.5s]"
+      ]
+    },
+    {
+      "slug": "edit-the-sky",
+      "title": "Edit the Sky",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 10,
+      "categories": [],
+      "stand_in": false,
+      "slots": [
+        "[0:00–2s]",
+        "[2:00–4s]",
+        "[4:00–4.5s]",
+        "[4.5s–5.5s]",
+        "[5.5s–10s]"
+      ]
+    },
+    {
+      "slug": "sm-brand-new-day",
+      "title": "SM: Brand New Day",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 14,
+      "categories": [
+        "movies"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "window-explode",
+      "title": "Window Explode",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-last-stagecoach",
+      "title": "The Last Stagecoach",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [
+        "movies",
+        "products"
+      ],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "sea-snakes",
+      "title": "Sea Snakes",
+      "generation_type": "video",
+      "model": "seedance-2.0",
+      "mode": "pro",
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    },
+    {
+      "slug": "the-matrix",
+      "title": "The Matrix",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 15,
+      "categories": [],
+      "stand_in": false,
+      "slots": [
+        "[7s]",
+        "[3s-7s]",
+        "[0s-3s]",
+        "[7s-10s]",
+        "[10s-12s]",
+        "[12s-15s]"
+      ]
+    },
+    {
+      "slug": "dreamworks-castle",
+      "title": "Dreamworks Castle",
+      "generation_type": "video",
+      "model": "seedance-2.5",
+      "mode": "omni-references",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 10,
+      "categories": [],
+      "stand_in": false,
+      "slots": []
+    }
+  ]
+}
