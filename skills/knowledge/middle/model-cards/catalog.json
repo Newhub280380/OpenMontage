@@ -1,0 +1,3853 @@
+{
+  "models": [
+    {
+      "id": "elevenlabs-audio",
+      "kind": "music",
+      "provider": "elevenlabs",
+      "label": "Eleven Music 2.5",
+      "input_modes": [
+        "text_to_music"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": ""
+    },
+    {
+      "id": "elevenlabs-tts",
+      "kind": "voiceover",
+      "provider": "elevenlabs",
+      "label": "Eleven v3",
+      "input_modes": [
+        "text_to_speech"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [],
+      "aliases": false,
+      "prompt_language": "ru",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "exact_text",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": ""
+    },
+    {
+      "id": "elevenlabs-tts-v4",
+      "kind": "voiceover",
+      "provider": "elevenlabs",
+      "label": "Eleven v4",
+      "input_modes": [
+        "text_to_speech"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [],
+      "aliases": false,
+      "prompt_language": "ru",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "exact_text",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": ""
+    },
+    {
+      "id": "elevenlabs-tts-v4-turbo",
+      "kind": "voiceover",
+      "provider": "elevenlabs",
+      "label": "Eleven v4 Turbo",
+      "input_modes": [
+        "text_to_speech"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [],
+      "aliases": false,
+      "prompt_language": "ru",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "exact_text",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": ""
+    },
+    {
+      "id": "flux-3",
+      "kind": "video",
+      "provider": "black-forest-labs",
+      "label": "FLUX 3",
+      "input_modes": [
+        "text_to_video",
+        "image_to_video",
+        "first_last_frame_to_video",
+        "video_extend",
+        "keyframes_to_video"
+      ],
+      "mode_options": [
+        "create",
+        "extend"
+      ],
+      "resolutions": [
+        "720p",
+        "1080p"
+      ],
+      "durations": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "aspect_ratios": [
+        "auto",
+        "21:9",
+        "2:1",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 10,
+      "stability": "beta",
+      "editorial": "Бери, когда нужен точный контроль хода ролика через первый/последний кадр или расставленные по времени ключевые кадры. Для продления клипа выбери исходное MP4-видео короче 15 секунд; этот режим тарифицируется отдельно."
+    },
+    {
+      "id": "flux-3-image",
+      "kind": "image",
+      "provider": "blackforestlabs",
+      "label": "FLUX.3 Image",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "auto",
+        "21:9",
+        "2:1",
+        "16:9",
+        "3:2",
+        "7:5",
+        "4:3",
+        "5:4",
+        "1:1",
+        "4:5",
+        "3:4",
+        "5:7",
+        "2:3",
+        "9:16",
+        "1:2"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Генерация по тексту и редактирование с 1–10 входными изображениями. Входные изображения: минимум 256 пикселей по каждой стороне и максимум 4 мегапикселя. Сравнительный рейтинг качества не установлен."
+    },
+    {
+      "id": "flux-3-klein",
+      "kind": "image",
+      "provider": "blackforestlabs",
+      "label": "FLUX 3 Klein",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:9",
+        "9:16",
+        "21:9",
+        "9:21",
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Генерация по тексту и редактирование с до 10 референсами; доступны 1K, 2K и 4K, а в редактировании — автоматическое соотношение сторон. Сравнительный рейтинг качества не установлен."
+    },
+    {
+      "id": "flux-3-max",
+      "kind": "video",
+      "provider": "fal",
+      "label": "FLUX 3 Max",
+      "input_modes": [
+        "text_to_video",
+        "image_to_video",
+        "first_last_frame_to_video",
+        "keyframes_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "720p",
+        "1080p"
+      ],
+      "durations": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "aspect_ratios": [
+        "auto",
+        "21:9",
+        "2:1",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 13,
+      "stability": "beta",
+      "editorial": "Создаёт видео по тексту, первому кадру, первому и последнему кадрам или 1–10 ключевым кадрам. Позиции ключевых кадров задаются на таймлайне 24 кадра/с. Длительность — целые 5–20 секунд, разрешение — 720p или 1080p. Auto выбирает 16:9 для текста и формат первого изображения для кадров. Звук включён по умолчанию; уровень проработки промпта и seed настраиваются отдельно."
+    },
+    {
+      "id": "flux-video-upscale",
+      "kind": "video",
+      "provider": "black-forest-labs",
+      "label": "FLUX Video Upscale",
+      "input_modes": [
+        "video_upscale"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "exact_text",
+      "tokens_per_second": 48,
+      "stability": "beta",
+      "editorial": "Финальный проход для готового ролика, когда нужен честный scale-up без выдуманного target resolution. Выбирай точный режим для максимальной верности исходнику, творческий — для генеративного восстановления деталей."
+    },
+    {
+      "id": "gemini-omni-1.1-flash",
+      "kind": "video",
+      "provider": "google",
+      "label": "Gemini Omni 1.1 Flash",
+      "input_modes": [
+        "text_to_video",
+        "image_to_video",
+        "first_last_frame_to_video",
+        "video_reference",
+        "video_edit",
+        "text_image_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "360p",
+        "720p",
+        "1080p",
+        "4k"
+      ],
+      "durations": [
+        4,
+        6,
+        8,
+        10
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Выбирай для создания видео из текста, первого и последнего кадра, изображений или видео-референса, а также для редактирования исходного видео по промпту. Видео-референс относится к созданию; исходное видео — к отдельному режиму редактирования."
+    },
+    {
+      "id": "gemini-omni-1.2-flash",
+      "kind": "video",
+      "provider": "google",
+      "label": "Gemini Omni 1.2 Flash",
+      "input_modes": [
+        "text_to_video",
+        "image_to_video",
+        "first_last_frame_to_video",
+        "video_reference",
+        "video_edit",
+        "video_extend",
+        "text_image_to_video"
+      ],
+      "mode_options": [
+        "create",
+        "edit",
+        "extend"
+      ],
+      "resolutions": [
+        "360p",
+        "720p",
+        "1080p",
+        "4k"
+      ],
+      "durations": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 2.5,
+      "stability": "beta",
+      "editorial": "Создавайте новую сцену, редактируйте исходное видео до 15 секунд или добавляйте продолжение на 3–10 секунд к ролику короче 30 секунд. При редактировании длительность определяется исходником; продолжение возвращает исходный ролик с добавленными секундами. Проверяйте надписи, лица и реплики в результате."
+    },
+    {
+      "id": "gpt-image-2",
+      "kind": "image",
+      "provider": "openai",
+      "label": "ChatGPT Images 2.0",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "1:1",
+        "2:3",
+        "3:2",
+        "4:3",
+        "3:4",
+        "4:5",
+        "5:4",
+        "16:9",
+        "9:16",
+        "21:9"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Предыдущее поколение: результаты LM Arena и Qwen-Image-Bench за июль 2026 не сравнивают его с GPT Image 2.5. Для новой задачи сначала рассмотри gpt-image-2.5-sunburst для деталей или gpt-image-2.5-flare для быстрых итераций; выбирай 2.0, когда нужны именно его параметры или воспроизводимость прежнего результата. Особенно силён в точных инструкциях, тексте и сложных макетах. Для взрослой fashion-съёмки с бельём или boudoir-референсами предпочитай seedream-5-pro: этот сценарий чаще конфликтует с safety-политикой GPT Image. Для генерации и правки по референсам рассмотри nano-banana-2.1; для Google style-guide workflow и 4K бренд-сцен сравни с nano-banana-pro."
+    },
+    {
+      "id": "gpt-image-2.5-flare",
+      "kind": "image",
+      "provider": "openai",
+      "label": "GPT Image 2.5 Flare",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "1:1",
+        "2:3",
+        "3:2",
+        "4:3",
+        "3:4",
+        "4:5",
+        "5:4",
+        "16:9",
+        "9:16",
+        "21:9"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Рассмотри для быстрых итераций и правок по референсам с сохранением узнаваемости; для приоритета мелких деталей сравни с Sunburst. Текущее поколение GPT Image: генерация и редактирование, до 16 референсов, Low/Medium/High, 1K/2K/4K. Рейтинги GPT Image 2.0 за июль не доказывают превосходство над 2.5; независимый сравнительный рейтинг 2.5 здесь не установлен."
+    },
+    {
+      "id": "gpt-image-2.5-sunburst",
+      "kind": "image",
+      "provider": "openai",
+      "label": "GPT Image 2.5 Sunburst",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "1:1",
+        "2:3",
+        "3:2",
+        "4:3",
+        "3:4",
+        "4:5",
+        "5:4",
+        "16:9",
+        "9:16",
+        "21:9"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Рассмотри для детального фотореалистичного кадра, сложной композиции, текста и точных правок; по описанию разработчика медленнее Flare. Текущее поколение GPT Image: генерация и редактирование, до 16 референсов, Low/Medium/High, 1K/2K/4K. Рейтинги GPT Image 2.0 за июль не доказывают превосходство над 2.5; независимый сравнительный рейтинг 2.5 здесь не установлен."
+    },
+    {
+      "id": "gpt-image-2.6-flare",
+      "kind": "image",
+      "provider": "openai",
+      "label": "GPT Image 2.6 Flare",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "1:1",
+        "2:3",
+        "3:2",
+        "4:3",
+        "3:4",
+        "4:5",
+        "5:4",
+        "16:9",
+        "9:16",
+        "21:9"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Для быстрых итераций, естественного света, фактур и правок по референсам с сохранением узнаваемости персонажей и предметов. Генерация по тексту и редактирование, до 16 входных изображений, Low/Medium/High/XHigh/Max, 1K/2K/4K. Фон: авто, прозрачный или непрозрачный. Изображение: PNG/JPEG/WebP. Анимация GIF: 512×512, 2–16 кадров, выбор времени кадра. Сравнительный рейтинг качества не установлен."
+    },
+    {
+      "id": "gpt-image-2.6-sunburst",
+      "kind": "image",
+      "provider": "openai",
+      "label": "GPT Image 2.6 Sunburst",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "1:1",
+        "2:3",
+        "3:2",
+        "4:3",
+        "3:4",
+        "4:5",
+        "5:4",
+        "16:9",
+        "9:16",
+        "21:9"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Для сложных композиций, мелких деталей и точных правок с сохранением исходного кадра. По описанию разработчика требует больше времени, чем Flare. Генерация по тексту и редактирование, до 16 входных изображений, Low/Medium/High/XHigh/Max, 1K/2K/4K. Фон: авто, прозрачный или непрозрачный. Изображение: PNG/JPEG/WebP. Анимация GIF: 512×512, 2–16 кадров, выбор времени кадра. Сравнительный рейтинг качества не установлен."
+    },
+    {
+      "id": "grok-imagine",
+      "kind": "image",
+      "provider": "xai",
+      "label": "Grok Imagine",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "2:3",
+        "3:2",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Быстрый дешёвый концепт-тир: середина арены t2i (июль 2026). Хорош для набросков, диалоговых правок и объёма; за финальным качеством и реализмом — gpt-image-2/Nano Banana."
+    },
+    {
+      "id": "grok-imagine-image-2.0",
+      "kind": "image",
+      "provider": "xai",
+      "label": "Grok Imagine Image 2.0",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "2:1",
+        "20:9",
+        "19.5:9",
+        "16:9",
+        "4:3",
+        "3:2",
+        "1:1",
+        "2:3",
+        "3:4",
+        "9:16",
+        "9:19.5",
+        "9:20",
+        "1:2",
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Генерация по тексту и редактирование с до 5 референсами. Цена включает каждый входной референс. Доступные форматы и число референсов определяют совместимый маршрут. Редактирование всей картинки без маски; независимый сравнительный рейтинг 2.0 не установлен."
+    },
+    {
+      "id": "grok-imagine-pro",
+      "kind": "image",
+      "provider": "xai",
+      "label": "Grok Imagine Pro",
+      "input_modes": [
+        "text_to_image"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "2:3",
+        "3:2",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Середина арены t2i (июль 2026) — ниже Nano Banana и GPT Image по качеству, референсы не поддерживает. Плюсы: скорость, цена, текст аккуратнее базового тира. Для финального фотореализма не первый выбор."
+    },
+    {
+      "id": "grok-imagine-video",
+      "kind": "video",
+      "provider": "xai",
+      "label": "Grok Imagine Video",
+      "input_modes": [
+        "image_to_video",
+        "text_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "480p",
+        "720p",
+        "1080p"
+      ],
+      "durations": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "2:3",
+        "3:2",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 0.7,
+      "stability": "beta",
+      "editorial": "Лучшая цена/качество в коротком видео: №10 t2v и №6 i2v арены (июль 2026), синхронный звук и 1–2 тк/с в 480p/720p; новый 1080p-тир стоит 6 тк/с. Для объёма и быстрых клипов — дефолт; премиальный кино-кадр — Veo/Seedance/Gemini Omni."
+    },
+    {
+      "id": "grok-imagine-video-1.5",
+      "kind": "video",
+      "provider": "xai",
+      "label": "Grok Imagine Video 1.5",
+      "input_modes": [
+        "keyframes_to_video",
+        "image_to_video",
+        "text_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "480p",
+        "720p",
+        "1080p"
+      ],
+      "durations": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "aspect_ratios": [
+        "auto",
+        "9:16",
+        "16:9",
+        "1:1",
+        "2:3",
+        "3:2",
+        "4:3",
+        "3:4"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 1,
+      "stability": "beta",
+      "editorial": "Первый и последний кадры можно задавать отдельно. До четырёх промежуточных кадров строго внутри ролика, с интервалом не менее ⅓ секунды. Петля использует одно изображение для начала и конца. В 480p и 720p можно сочетать кадры с набором до 7 референсов. В 1080p доступна генерация из текста или одного первого кадра. Промпт необязателен при изображении."
+    },
+    {
+      "id": "grok-imagine-video-1.5-lite",
+      "kind": "video",
+      "provider": "xai",
+      "label": "Grok Imagine Video 1.5 Lite",
+      "input_modes": [
+        "image_to_video",
+        "text_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "480p",
+        "720p",
+        "1080p"
+      ],
+      "durations": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "4:3",
+        "3:2",
+        "1:1",
+        "2:3",
+        "3:4",
+        "9:16",
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 1.5,
+      "stability": "beta",
+      "editorial": "Выберите текст или первый кадр. В режиме первого кадра формат определяется изображением. Звук создаётся автоматически. Итоговая цена image-to-video учитывает исходное изображение; точная сумма показывается перед запуском."
+    },
+    {
+      "id": "happyhorse-1.0",
+      "kind": "video",
+      "provider": "alibaba",
+      "label": "HappyHorse 1.0",
+      "input_modes": [
+        "video_edit",
+        "image_to_video",
+        "text_to_video"
+      ],
+      "mode_options": [
+        "create",
+        "edit"
+      ],
+      "resolutions": [
+        "720p",
+        "1080p"
+      ],
+      "durations": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "3:4",
+        "4:3",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 6,
+      "stability": "beta",
+      "editorial": "Один из сильнейших универсалов: №3 t2v и №4 i2v LM Arena, №1 у Artificial Analysis без аудио (июль 2026). Кино-качество со звуком и синхронизацией речи одним проходом по средней цене — часто лучший ответ на «качество+звук за разумные деньги»."
+    },
+    {
+      "id": "happyhorse-1.1",
+      "kind": "video",
+      "provider": "alibaba",
+      "label": "HappyHorse 1.1",
+      "input_modes": [
+        "image_to_video",
+        "text_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "720p",
+        "1080p"
+      ],
+      "durations": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "21:9",
+        "3:4",
+        "4:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "9:21"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 5.5,
+      "stability": "beta",
+      "editorial": "Выбирайте для новой сцены с автоматически создаваемым звуком и несколькими изображениями-референсами. Назовите роль каждого изображения, действие и освещение. Разные форматы подходят для вертикальных роликов и широких сцен. В этой версии нет редактирования исходного видео и отдельного выключателя звука."
+    },
+    {
+      "id": "heygen-avatar-6",
+      "kind": "video",
+      "provider": "heygen",
+      "label": "HeyGen Avatar 6",
+      "input_modes": [
+        "image_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "1080p",
+        "2K"
+      ],
+      "durations": [],
+      "aspect_ratios": [
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "exact_text",
+      "tokens_per_second": 12,
+      "stability": "beta",
+      "editorial": "Добавьте фото, видео с анимированным или рисованным персонажем либо оба материала. Видео должно длиться от 2 секунд и занимать до 50 МБ. Добавьте озвучку от 1 до 60 секунд. Жесты и мимику можно описать отдельно."
+    },
+    {
+      "id": "heygen-avatar-6-turbo",
+      "kind": "video",
+      "provider": "heygen",
+      "label": "HeyGen Avatar 6 Turbo",
+      "input_modes": [
+        "image_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "1080p",
+        "2K"
+      ],
+      "durations": [],
+      "aspect_ratios": [
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "exact_text",
+      "tokens_per_second": 6,
+      "stability": "beta",
+      "editorial": "Добавьте фото, видео с анимированным или рисованным персонажем либо оба материала. Видео должно длиться от 2 секунд и занимать до 50 МБ. Добавьте озвучку от 1 до 60 секунд. Жесты и мимику можно описать отдельно."
+    },
+    {
+      "id": "heygen-photo-avatar",
+      "kind": "video",
+      "provider": "heygen",
+      "label": "HeyGen Avatar IV",
+      "input_modes": [
+        "image_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "1080p",
+        "720p"
+      ],
+      "durations": [],
+      "aspect_ratios": [
+        "16:9",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "ru",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "exact_text",
+      "tokens_per_second": 2.8,
+      "stability": "beta",
+      "editorial": "Говорящий аватар с одного фото до 60 с: живые жесты и мимика по тону голоса, дешевле kling-digital-human за секунду. Для длинных реплик — этот; для короткой точной синхронизации речи сравни оба."
+    },
+    {
+      "id": "higgsfield-soul-2",
+      "kind": "image",
+      "provider": "higgsfield",
+      "label": "Higgsfield Soul 2.0",
+      "input_modes": [
+        "text_to_image"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "9:16",
+        "16:9",
+        "4:3",
+        "3:4",
+        "1:1",
+        "2:3",
+        "3:2"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Недорогие фотореалистичные портреты и fashion. Не принимает произвольное загруженное фото и не редактирует исходник; для точного товара по референсу или сложной надписи выбирай совместимую image-edit модель. Актуальность рекомендации: 2026-09-07; точная цена берётся из текущего предложения."
+    },
+    {
+      "id": "ideogram-4.5",
+      "kind": "image",
+      "provider": "ideogram",
+      "label": "Ideogram 4.5",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Генерация по тексту и редактирование одного исходного изображения с до 4 дополнительными референсами. Качество Very low доступно только при редактировании; Low, Medium и High доступны в обоих режимах. Сравнительный рейтинг качества не установлен."
+    },
+    {
+      "id": "ideogram-4.6",
+      "kind": "image",
+      "provider": "ideogram",
+      "label": "Ideogram 4.6",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Укажи точный текст в кавычках, опиши его положение и иерархию. При правке сначала добавь исходное изображение, затем референсы."
+    },
+    {
+      "id": "kling-2.6",
+      "kind": "video",
+      "provider": "kling",
+      "label": "Kling 2.6",
+      "input_modes": [
+        "image_to_video",
+        "text_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "1080p"
+      ],
+      "durations": [
+        5,
+        10
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 10,
+      "stability": "beta",
+      "editorial": "Прошлое поколение Kling: на аренах заметно ниже текущих лидеров (июль 2026). Смысл — недорогой синхронный звук одним проходом для говорящих голов и простых клипов."
+    },
+    {
+      "id": "kling-2.6-motion",
+      "kind": "video",
+      "provider": "kling",
+      "label": "Kling 2.6 Motion",
+      "input_modes": [
+        "video_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "3:4",
+        "4:3",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 10,
+      "stability": "beta",
+      "editorial": "Motion-перенос прошлого поколения по той же цене за секунду, что 3.0 Motion, — точность ниже. По умолчанию бери kling-3.0-motion; этот — если его характер движения подходит лучше."
+    },
+    {
+      "id": "kling-3.0",
+      "kind": "video",
+      "provider": "kling",
+      "label": "Kling 3.0",
+      "input_modes": [
+        "image_to_video",
+        "text_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "720p",
+        "1080p",
+        "4k"
+      ],
+      "durations": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 7,
+      "stability": "beta",
+      "editorial": "Свежий флагман Kling: мультисценовая режиссура, до 15 с, 4K, многоязычный звук. Арены расходятся: у llm-stats — №1 t2v, на LM Arena i2v — лишь №13 (июль 2026). Бери для сюжетных мультисцен и удержания героя; одиночный hero-кадр — сравни с Veo/Seedance."
+    },
+    {
+      "id": "kling-3.0-motion",
+      "kind": "video",
+      "provider": "kling",
+      "label": "Kling 3.0 Motion",
+      "input_modes": [
+        "video_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "3:4",
+        "4:3",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 7,
+      "stability": "beta",
+      "editorial": "Специнструмент переноса движения/хореографии с видео-образца на персонажа с фиксацией лица. Не для генерации сцен с нуля; на аренах не соревнуется."
+    },
+    {
+      "id": "kling-3.0-omni",
+      "kind": "video",
+      "provider": "kling",
+      "label": "Kling 3.0 Omni",
+      "input_modes": [
+        "video_edit",
+        "image_to_video",
+        "text_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "720p",
+        "1080p"
+      ],
+      "durations": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 12,
+      "stability": "beta",
+      "editorial": "Выбирайте для истории с несколькими планами и отдельными указаниями по каждому. Изображения задают образ персонажа; видео-образец направляет движение и камеру. С видео-образцом звук требуется выключить, перенос голоса из него недоступен. Без видео-образца можно создать звук вместе со сценой."
+    },
+    {
+      "id": "kling-3.0-turbo",
+      "kind": "video",
+      "provider": "kling",
+      "label": "Kling 3.0 Turbo",
+      "input_modes": [
+        "image_to_video",
+        "text_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "720p",
+        "1080p"
+      ],
+      "durations": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 13.5,
+      "stability": "beta",
+      "editorial": "Быстрый тир Kling 3.0 БЕЗ звука: черновики и итерации сюжетных сцен до 15 с. Финал со звуком — полный 3.0/Omni или Veo."
+    },
+    {
+      "id": "kling-4.0",
+      "kind": "video",
+      "provider": "kie",
+      "label": "Kling 4.0",
+      "input_modes": [
+        "text_to_video",
+        "image_to_video",
+        "video_reference"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "720p",
+        "1080p"
+      ],
+      "durations": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "aspect_ratios": [
+        "auto",
+        "16:9",
+        "9:16",
+        "1:1",
+        "21:9",
+        "adaptive"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 11,
+      "stability": "beta",
+      "editorial": "Создаёт видео по тексту, первому и последнему кадрам с промежуточными изображениями в заданном порядке или референсам. Промежуточные кадры не задают точное время. Всего до min(длительность + 1, 10) кадров. Референсы: до 10 изображений, 5 видео по 2–30 секунд и 3 голосов, не более 15 материалов. В промпте используйте @image_1, @video_1, @voice_1; для кадров — @first_frame, @keyframe_1, @last_frame. С видео-референсами стоимость учитывает полную длительность всех входных видео и результата, минимум две длительности результата."
+    },
+    {
+      "id": "kling-4.0-flash",
+      "kind": "video",
+      "provider": "Kling",
+      "label": "Kling 4.0 Flash",
+      "input_modes": [
+        "text_to_video",
+        "image_to_video",
+        "video_reference"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "720p"
+      ],
+      "durations": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "9:16",
+        "1:1",
+        "21:9",
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 7,
+      "stability": "beta",
+      "editorial": "Генерация по тексту или первому кадру. Для первого кадра описание необязательно, формат определяется изображением. Для текста доступны 16:9, 9:16, 1:1 и 21:9. Доступны до 10 изображений и 5 видео-референсов, суммарно до 15 материалов. Видео по 2–20 секунд, суммарно до 20 секунд; доступность зависит от провайдера. Последний кадр и промежуточные кадры не поддерживаются."
+    },
+    {
+      "id": "kling-digital-human",
+      "kind": "video",
+      "provider": "kling",
+      "label": "Kling Avatar 2.0",
+      "input_modes": [
+        "image_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "720p",
+        "1080p"
+      ],
+      "durations": [],
+      "aspect_ratios": [],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "exact_text",
+      "tokens_per_second": 7,
+      "stability": "beta",
+      "editorial": "Дефолт для «оживи фото с моей озвучкой»: синхронизация речи, мимика и жесты с одного портрета. Альтернатива — heygen-photo-avatar: сам строит жесты по тону голоса, до 60 с и дешевле за секунду."
+    },
+    {
+      "id": "kling-image-4.0",
+      "kind": "image",
+      "provider": "Kling",
+      "label": "Kling Image 4.0",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "auto",
+        "1:1",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:9",
+        "9:16",
+        "21:9"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Для правки укажи, что взять из каждого референса и какие детали сохранить. Точный текст для изображения заключай в кавычки."
+    },
+    {
+      "id": "kling-lip-sync",
+      "kind": "video",
+      "provider": "kling",
+      "label": "Kling Lip-Sync",
+      "input_modes": [
+        "video_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "exact_text",
+      "tokens_per_second": 3,
+      "stability": "beta",
+      "editorial": "Узкий инструмент: только перекладка губ в готовом видео под новую дорожку (дубляж, локализация). Видео не генерирует."
+    },
+    {
+      "id": "kling-long-image-4.0",
+      "kind": "image",
+      "provider": "Kling",
+      "label": "Kling Image 4.0 Long",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Опиши блоки по порядку. Для сайта можно добавить референс стиля и изображение главного объекта. Для карточки товара приложи от одного до трёх фото и выбери длину страницы."
+    },
+    {
+      "id": "kling-o1",
+      "kind": "video",
+      "provider": "kling",
+      "label": "Kling O1",
+      "input_modes": [
+        "video_edit",
+        "video_reference",
+        "image_to_video",
+        "text_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "720p",
+        "1080p"
+      ],
+      "durations": [
+        5,
+        10
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 14.5,
+      "stability": "beta",
+      "editorial": "Добавьте первый кадр и отдельные изображения персонажей или предметов. Опишите их роли, действие и камеру. Это обычные визуальные референсы: Elements и строгая фиксация внешности недоступны. С референсами нельзя задать последний кадр. Звук не создаётся."
+    },
+    {
+      "id": "magi-2",
+      "kind": "video",
+      "provider": "sand-ai",
+      "label": "MAGI-2",
+      "input_modes": [
+        "text_to_video",
+        "image_to_video",
+        "video_reference"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "1080p"
+      ],
+      "durations": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "aspect_ratios": [
+        "21:9",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16",
+        "adaptive"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 5.5,
+      "stability": "beta",
+      "editorial": "В текстовом режиме опишите сцену. Для анимации добавьте первый кадр и при необходимости последний: формат задаёт первый кадр, описание можно оставить пустым. В режиме референсов добавьте хотя бы одно изображение, видео или аудио и опишите его роль. Звук включён по умолчанию. Доступны 1080p и длительность от 4 до 30 секунд."
+    },
+    {
+      "id": "mai-image-2.5",
+      "kind": "image",
+      "provider": "microsoft",
+      "label": "MAI Image 2.5",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "auto",
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16",
+        "3:2",
+        "2:3"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Генерация по тексту и редактирование: до 1 референсов. Для нескольких референсов выбирай Muse Image; MAI Image 2.5 и Pro принимают один. Сравнительный рейтинг качества не установлен."
+    },
+    {
+      "id": "mai-image-2.5-pro",
+      "kind": "image",
+      "provider": "microsoft",
+      "label": "MAI Image 2.5 Pro",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "auto",
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16",
+        "3:2",
+        "2:3"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Генерация по тексту и редактирование: до 1 референсов. Для нескольких референсов выбирай Muse Image; MAI Image 2.5 и Pro принимают один. Сравнительный рейтинг качества не установлен."
+    },
+    {
+      "id": "mai-image-2.6",
+      "kind": "image",
+      "provider": "microsoft",
+      "label": "MAI Image 2.6",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:9",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Выбирай для финального кадра; для быстрых итераций есть MAI Image 2.6 Flash."
+    },
+    {
+      "id": "mai-image-2.6-flash",
+      "kind": "image",
+      "provider": "microsoft",
+      "label": "MAI Image 2.6 Flash",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:9",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Выбирай для быстрых итераций и подбора идеи; для финального кадра сравни результат с MAI Image 2.6."
+    },
+    {
+      "id": "mai-image-2.7",
+      "kind": "image",
+      "provider": "microsoft",
+      "label": "MAI Image 2.7",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:9",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "При правке укажи, что нужно изменить и какие детали сохранить."
+    },
+    {
+      "id": "mai-image-2.7-flash",
+      "kind": "image",
+      "provider": "microsoft",
+      "label": "MAI Image 2.7 Flash",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:9",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Выбирай для быстрых итераций. При правке укажи, что нужно изменить и какие детали сохранить."
+    },
+    {
+      "id": "minimax-h3",
+      "kind": "video",
+      "provider": "minimax",
+      "label": "MiniMax H3",
+      "input_modes": [
+        "text_to_video",
+        "text_image_to_video",
+        "video_reference",
+        "image_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "768p",
+        "2k"
+      ],
+      "durations": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "21:9",
+        "3:4",
+        "4:3",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 3,
+      "stability": "beta",
+      "editorial": "Мультимодальная модель MiniMax с 768P и 2K (2K по умолчанию) и стереозвуком. Поддерживает текст, первый и опциональный последний кадр или до 9 изображений, 3 видео и 3 аудио-референсов. Видео: MP4/MOV, от 2 до 15 секунд каждый, до 15 секунд суммарно и до 50 МБ на файл. Видео можно использовать без изображений; аудио требует изображение или видео. Кадры несовместимы с референсами. Входные видеосекунды оплачиваются дополнительно к выходным."
+    },
+    {
+      "id": "minimax-h3-image",
+      "kind": "image",
+      "provider": "minimax",
+      "label": "MiniMax H3 Image",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "1:1",
+        "5:4",
+        "4:5",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:9",
+        "9:16",
+        "21:9"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Выбирай, когда нужен результат 4K или много референсов. Цена растёт с числом входных изображений."
+    },
+    {
+      "id": "minimax-h3-max",
+      "kind": "video",
+      "provider": "fal",
+      "label": "H3 Max",
+      "input_modes": [
+        "text_to_video",
+        "image_to_video",
+        "video_reference",
+        "video_extend",
+        "video_insert",
+        "video_edit",
+        "video_reframe"
+      ],
+      "mode_options": [
+        "create",
+        "extend",
+        "insert",
+        "recast",
+        "reframe"
+      ],
+      "resolutions": [
+        "480p",
+        "768p",
+        "1080p",
+        "2k"
+      ],
+      "durations": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "aspect_ratios": [
+        "21:9",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16",
+        "auto",
+        "9:21"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 4,
+      "stability": "beta",
+      "editorial": "Выбери режим: create — новый ролик 1–15 секунд в 480P/768P/1080P; можно совместить первый и последний кадры с 9 изображениями и 3 видео-референсами (2–15 с каждый, всего до 15 с). Референсы: до 9 изображений, 3 видео и 3 аудио, всего до 12 материалов. Звуковая дорожка заменяет звук, это не LipSync и она несовместима с мультимодальными референсами. Средний кадр требует первый и последний, время middleFrameTimeSec внутри ролика и 480P/768P; extend — продолжение исходника 1,625–60 секунд; insert — новая сцена 5–13 секунд между startTimeSec и resumeTimeSec. recast — замена людей в исходном видео 5–30 секунд по 1–4 фото, каждый план до 15 секунд, промпт необязателен. Recast оплачивается по длител"
+    },
+    {
+      "id": "minimax-h3-max-lip-sync",
+      "kind": "video",
+      "provider": "fal",
+      "label": "H3 Max Lip Sync",
+      "input_modes": [
+        "image_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "480p",
+        "768p",
+        "1080p",
+        "2k"
+      ],
+      "durations": [],
+      "aspect_ratios": [],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en"
+      ],
+      "prompt_semantics": "none",
+      "tokens_per_second": 3,
+      "stability": "beta",
+      "editorial": "Бери, когда нужен говорящий персонаж из одного изображения и готовой озвучки. Это отдельный image-to-video инструмент H3 Max без текстового промпта; для генерации сцены из текста или кадров выбирай H3 Max или H3 Max Turbo."
+    },
+    {
+      "id": "minimax-h3-max-turbo",
+      "kind": "video",
+      "provider": "fal",
+      "label": "H3 Max Turbo",
+      "input_modes": [
+        "text_to_video",
+        "image_to_video",
+        "video_extend"
+      ],
+      "mode_options": [
+        "create",
+        "extend"
+      ],
+      "resolutions": [
+        "480p",
+        "768p",
+        "1080p",
+        "2k"
+      ],
+      "durations": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "aspect_ratios": [
+        "21:9",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16",
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 1.5,
+      "stability": "beta",
+      "editorial": "Быстрый бюджетный вариант, в том числе финал. Создание Turbo работает в 480P/768P/1080P со встроенным звуком без выключателя; для создания в 2K или с мультимодальными референсами проверь стандартный H3. Режим Extend доступен до 2K, сохраняет исходный звук и принимает до трёх аудио-референсов для нового продолжения. Актуальность рекомендации: 2026-09-07."
+    },
+    {
+      "id": "minimax-music-3",
+      "kind": "music",
+      "provider": "minimax",
+      "label": "MiniMax Music 3",
+      "input_modes": [
+        "text_to_music"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 0.2,
+      "stability": "beta",
+      "editorial": "Промпт описывает стиль, настроение, вокал, инструменты и аранжировку; текст песни задаётся отдельно и обязателен. Структурные теги в тексте ставьте на отдельной строке."
+    },
+    {
+      "id": "motion-to-code-glsl",
+      "kind": "video",
+      "provider": "fal",
+      "label": "Motion to Code · GLSL",
+      "input_modes": [
+        "text_to_video",
+        "image_to_video",
+        "video_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "9:16",
+        "1:1",
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 15,
+      "stability": "beta",
+      "editorial": "Опишите движение, добавьте изображение или видео длительностью 1–15 секунд. Изображение и видео одновременно не принимаются. Можно добавить звуковую дорожку до 15 МБ. Без видео модель сначала создаёт видеореференс, затем восстанавливает его кодом. Видео задаёт длительность и формат, изображение — формат. Оплачивается минимум 5 секунд. Исходники доступны для скачивания; MP4 можно использовать в монтаже."
+    },
+    {
+      "id": "motion-to-code-gsap",
+      "kind": "video",
+      "provider": "fal",
+      "label": "Motion to Code · GSAP",
+      "input_modes": [
+        "text_to_video",
+        "image_to_video",
+        "video_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "9:16",
+        "1:1",
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 15,
+      "stability": "beta",
+      "editorial": "Опишите движение, добавьте изображение или видео длительностью 1–15 секунд. Изображение и видео одновременно не принимаются. Можно добавить звуковую дорожку до 15 МБ. Без видео модель сначала создаёт видеореференс, затем восстанавливает его кодом. Видео задаёт длительность и формат, изображение — формат. Оплачивается минимум 5 секунд. Исходники доступны для скачивания; MP4 можно использовать в монтаже."
+    },
+    {
+      "id": "muse-image",
+      "kind": "image",
+      "provider": "meta",
+      "label": "Muse Image",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "auto",
+        "21:9",
+        "16:9",
+        "4:3",
+        "3:2",
+        "1:1",
+        "2:3",
+        "3:4",
+        "9:16",
+        "9:21"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Генерация по тексту и редактирование: до 10 референсов. Для нескольких референсов выбирай Muse Image; MAI Image 2.5 и Pro принимают один. Сравнительный рейтинг качества не установлен."
+    },
+    {
+      "id": "nano-banana",
+      "kind": "image",
+      "provider": "google",
+      "label": "Nano Banana",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "21:9",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Прошлое поколение входного тира: на аренах заметно ниже nano-banana-2-lite при той же цене (июль 2026). Сегодня почти всегда лучше брать 2-lite; этот оставлен для привычных пайплайнов."
+    },
+    {
+      "id": "nano-banana-2-lite",
+      "kind": "image",
+      "provider": "google",
+      "label": "Nano Banana 2 Lite",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "1:4",
+        "1:8",
+        "21:9",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:1",
+        "4:3",
+        "4:5",
+        "5:4",
+        "8:1",
+        "9:16",
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Самый сильный из дешёвых тиров: №5 арены t2i (июль 2026) — выше многих дорогих моделей. Ограничение — только 1K: идеален для черновиков и объёма; финалы в 2K/4K — на nano-banana-2.1 или Pro."
+    },
+    {
+      "id": "nano-banana-2.1",
+      "kind": "image",
+      "provider": "google",
+      "label": "Nano Banana 2.1",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "auto",
+        "21:9",
+        "16:9",
+        "3:2",
+        "4:3",
+        "5:4",
+        "1:1",
+        "4:5",
+        "3:4",
+        "2:3",
+        "9:16",
+        "4:1",
+        "1:4",
+        "8:1",
+        "1:8"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Генерация по тексту и редактирование по референсам. Для версии 2.1 независимый сравнительный рейтинг ещё не установлен; рейтинги Nano Banana 2 к ней не относятся."
+    },
+    {
+      "id": "nano-banana-pro",
+      "kind": "image",
+      "provider": "google",
+      "label": "Nano Banana Pro",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "21:9",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Фото-ориентированная Pro-альтернатива, но не универсальный лидер: в Qwen-Image-Bench она №2 по базовому качеству, однако №4 в общем зачёте и уступает GPT Image 2 по всем пяти категориям (июль 2026). Бери для photo-polish, бренд-сцен, референсов и 4K; для точного текста и сложных макетов — gpt-image-2, для генерации и правки по референсам — nano-banana-2.1."
+    },
+    {
+      "id": "omnihuman-2",
+      "kind": "video",
+      "provider": "bytedance",
+      "label": "OmniHuman 2",
+      "input_modes": [
+        "image_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "exact_text",
+      "tokens_per_second": 7,
+      "stability": "beta",
+      "editorial": "Выбирайте для ведущего, персонажа-эксперта или исполнителя песни. Добавьте фото и готовую речь либо песню: запись задаёт слова, голос, паузы, ритм и длительность. В поле «Движение и камера» можно описать эмоцию, направление взгляда, жесты и плавное движение камеры. Слова для речи или песни должны звучать в аудиофайле. Для заметных жестов используйте фото, где руки видны. Без дополнительных указаний исполнение строится по аудио."
+    },
+    {
+      "id": "pixverse-v6-max",
+      "kind": "video",
+      "provider": "pixverse",
+      "label": "PixVerse V6 Max",
+      "input_modes": [
+        "text_to_video",
+        "image_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "360p",
+        "540p",
+        "720p",
+        "1080p"
+      ],
+      "durations": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16",
+        "2:3",
+        "3:2",
+        "21:9",
+        "adaptive"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 2,
+      "stability": "beta",
+      "editorial": "Выбирайте для постановочного рекламного плана, демонстрации товара или короткой сцены с актёрской игрой. В описании задайте действие, ракурс и движение камеры, освещение; эмоцию передайте через взгляд, паузу, мимику и жест. Для товара уточните форму, материал и нужный ракурс. Для диалога укажите говорящего и точную реплику. Звук включается отдельно: он выключен по умолчанию и увеличивает стоимость. Можно добавить один первый кадр JPEG, PNG или WebP до 20 МБ; он задаёт композицию и формат ролика. Точное воспроизведение логотипов и надписей требует проверки результата."
+    },
+    {
+      "id": "qwen-image-3",
+      "kind": "image",
+      "provider": "alibaba",
+      "label": "Qwen Image 3.0",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "21:9",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Бери для информационно насыщенных постеров, инфографики, сторибордов и быстрых правок по нескольким референсам. Для более высокого качества и сложных коммерческих сцен сравни с Qwen Image 3.0 Pro."
+    },
+    {
+      "id": "qwen-image-3-pro",
+      "kind": "image",
+      "provider": "alibaba",
+      "label": "Qwen Image 3.0 Pro",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "21:9",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Бери для постеров, продуктовых сцен, иллюстраций и правок по нескольким референсам, когда важны композиция и текст. Для универсального максимального качества сравни результат с ChatGPT Images 2.0; для быстрых дешёвых итераций — с Nano Banana 2 Lite."
+    },
+    {
+      "id": "recraft-v4",
+      "kind": "image",
+      "provider": "recraft",
+      "label": "Recraft V4",
+      "input_modes": [
+        "text_to_image"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Выберите формат: растр для готового изображения или SVG для дальнейшей векторной правки. Готовый стиль и качество выбираются внутри этой модели. Стиль задаёт направление, но точное совпадение цветов и всех деталей серии не гарантируется. Редактирования исходного изображения и создания собственного стиля здесь нет."
+    },
+    {
+      "id": "recraft-v4.1",
+      "kind": "image",
+      "provider": "recraft",
+      "label": "Recraft V4.1",
+      "input_modes": [
+        "text_to_image"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Выберите SVG для логотипа, иконок или иллюстрации с дальнейшей правкой в векторном редакторе; растр — для готовой картинки. Flash подходит для растровых черновиков. Standard и Pro поддерживают оба формата. Выберите готовый стиль или «Без стиля», чтобы задать вид изображения промптом. Исходные изображения и референсы эта модель не редактирует."
+    },
+    {
+      "id": "seedance-2.0",
+      "kind": "video",
+      "provider": "byteplus",
+      "label": "Seedance 2.0",
+      "input_modes": [
+        "video_reference",
+        "text_image_to_video",
+        "image_to_video",
+        "text_to_video"
+      ],
+      "mode_options": [
+        "create",
+        "edit"
+      ],
+      "resolutions": [
+        "480p",
+        "720p",
+        "1080p",
+        "4k"
+      ],
+      "durations": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "21:9",
+        "3:4",
+        "4:3",
+        "9:16"
+      ],
+      "aliases": true,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru",
+        "zh"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 4.2,
+      "stability": "beta",
+      "editorial": "№1 арены image-to-video и №2 text-to-video LM Arena, №1 t2v со звуком у Artificial Analysis (июль 2026). Режиссёрские команды камеры, звук одним проходом, до 4K — главный конкурент Gemini Omni/Veo за самый сильный ролик."
+    },
+    {
+      "id": "seedance-2.0-fast",
+      "kind": "video",
+      "provider": "byteplus",
+      "label": "Seedance 2.0 Fast",
+      "input_modes": [
+        "video_reference",
+        "text_image_to_video",
+        "image_to_video",
+        "text_to_video"
+      ],
+      "mode_options": [
+        "create",
+        "edit"
+      ],
+      "resolutions": [
+        "480p",
+        "720p"
+      ],
+      "durations": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "21:9",
+        "3:4",
+        "4:3",
+        "9:16"
+      ],
+      "aliases": true,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru",
+        "zh"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 3.8,
+      "stability": "beta",
+      "editorial": "Выбирайте для проверки движения камеры, действия и совместной работы референсов. Ускоренная версия не означает гарантированно одинаковый результат с обычной 2.0. Сохраняйте удачные настройки и сравните финальный дубль, если важна преемственность серии."
+    },
+    {
+      "id": "seedance-2.0-mini",
+      "kind": "video",
+      "provider": "byteplus",
+      "label": "Seedance 2.0 Mini",
+      "input_modes": [
+        "video_reference",
+        "text_image_to_video",
+        "image_to_video",
+        "text_to_video"
+      ],
+      "mode_options": [
+        "create",
+        "edit"
+      ],
+      "resolutions": [
+        "480p",
+        "720p"
+      ],
+      "durations": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "21:9",
+        "3:4",
+        "4:3",
+        "9:16"
+      ],
+      "aliases": true,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru",
+        "zh"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 2.7,
+      "stability": "beta",
+      "editorial": "Самый дешёвый вход в линейку Seedance — черновики и объём. Качество ниже Fast и полного 2.0; для финала повышай тир."
+    },
+    {
+      "id": "seedance-2.5",
+      "kind": "video",
+      "provider": "byteplus",
+      "label": "Seedance 2.5",
+      "input_modes": [
+        "video_edit",
+        "video_extend",
+        "video_reference",
+        "text_image_to_video",
+        "image_to_video",
+        "text_to_video"
+      ],
+      "mode_options": [
+        "create",
+        "extend",
+        "edit"
+      ],
+      "resolutions": [
+        "draft",
+        "480p",
+        "720p",
+        "1080p",
+        "4k"
+      ],
+      "durations": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "21:9",
+        "3:4",
+        "4:3",
+        "9:16",
+        "adaptive"
+      ],
+      "aliases": true,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru",
+        "zh"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 7.5,
+      "stability": "production",
+      "editorial": "Начинай с Seedance 2.5 для качественного кинематографичного ролика, сложной сцены или работы с референсами, если текущие входы подходят и пользователь не назвал другую модель. При явном приоритете цены или скорости сравни более доступные совместимые варианты. Для редактирования добавь исходное видео; для новой сцены используй текст, кадры или разрешённые референсы."
+    },
+    {
+      "id": "seedance-2.5-flash",
+      "kind": "video",
+      "provider": "byteplus",
+      "label": "Seedance 2.5 Flash",
+      "input_modes": [
+        "video_edit",
+        "video_extend",
+        "video_reference",
+        "text_image_to_video",
+        "image_to_video",
+        "text_to_video"
+      ],
+      "mode_options": [
+        "create",
+        "edit",
+        "extend"
+      ],
+      "resolutions": [
+        "480p",
+        "720p"
+      ],
+      "durations": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "21:9",
+        "3:4",
+        "4:3",
+        "9:16",
+        "adaptive"
+      ],
+      "aliases": true,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru",
+        "zh"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 9,
+      "stability": "beta",
+      "editorial": "Для быстрых итераций со сценой, движением и мультимодальными референсами. Используй обычную Seedance 2.5, для 1080p, 4K или Draft; Flash их не поддерживает."
+    },
+    {
+      "id": "seedream-4.5",
+      "kind": "image",
+      "provider": "byteplus",
+      "label": "Seedream 4.5",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "21:9",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Бюджетная рабочая лошадка, НЕ топ по качеству: середина арены t2i (№26 из 70, июль 2026), обзоры отмечают крен в стилизацию, а не фотореализм. Сильна за 2 тк: консистентный персонаж, 14 референсов, продуктовые серии. Максимальный реализм людей — gpt-image-2 или nano-banana-pro."
+    },
+    {
+      "id": "seedream-5",
+      "kind": "image",
+      "provider": "byteplus",
+      "label": "Seedream 5.0 Lite",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "21:9",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Lite-тир: ценность — рассуждение и веб-поиск (сцены по актуальным событиям), а не пиковое качество: на арене ниже Seedream 4.5 (июль 2026). Бери под «по свежей повестке»; за чистым качеством — gpt-image-2/Nano Banana."
+    },
+    {
+      "id": "seedream-5-flash",
+      "kind": "image",
+      "provider": "bytedance",
+      "label": "Seedream 5 Flash",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "auto",
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16",
+        "3:2",
+        "2:3",
+        "21:9"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Генерация по тексту и редактирование с до 10 референсами. Выбери 1K или 2K и формат кадра; Auto сохраняет автоматический выбор размера поставщиком. Сравнительный рейтинг качества не установлен."
+    },
+    {
+      "id": "seedream-5-pro",
+      "kind": "image",
+      "provider": "byteplus",
+      "label": "Seedream 5.0 Pro",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Бери для фотореалистичных товарных визуалов, взрослой fashion-съёмки с бельём и недорогих итеративных правок. На сложном тексте, инфографике и UI результат нужно проверять; независимых сравнений Pro с лидерами пока мало. Для 4K и брендовых сцен выбирай Nano Banana Pro, для деталей и сложных макетов сравни с GPT Image 2.5 Sunburst, для быстрых итераций — с GPT Image 2.5 Flare."
+    },
+    {
+      "id": "seedream-5.5",
+      "kind": "image",
+      "provider": "byteplus",
+      "label": "Seedream 5.5",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16",
+        "2:3",
+        "3:2",
+        "21:9"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Выбирай для сцен, собранных из нескольких референсов: предмет, окружение, стиль. Цена растёт с числом входных изображений."
+    },
+    {
+      "id": "suno-v6",
+      "kind": "music",
+      "provider": "kie",
+      "label": "Suno V6",
+      "input_modes": [
+        "text_to_music",
+        "music_separation"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": ""
+    },
+    {
+      "id": "suno-v6-mini",
+      "kind": "music",
+      "provider": "kie",
+      "label": "Suno V6 Mini",
+      "input_modes": [
+        "text_to_music",
+        "music_separation"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": ""
+    },
+    {
+      "id": "suno-v6-wild",
+      "kind": "music",
+      "provider": "kie",
+      "label": "Suno V6 Wild",
+      "input_modes": [
+        "text_to_music",
+        "music_separation"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": ""
+    },
+    {
+      "id": "switchx-video",
+      "kind": "video",
+      "provider": "beeble",
+      "label": "SwitchX Video",
+      "input_modes": [
+        "video_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "720p",
+        "1080p"
+      ],
+      "durations": [],
+      "aspect_ratios": [
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Специнструмент: замена фона/света/объекта в УЖЕ снятом видео с сохранением субъекта и движения; на аренах не соревнуется. Для генерации с нуля не подходит."
+    },
+    {
+      "id": "sync-lipsync-v3",
+      "kind": "video",
+      "provider": "sync",
+      "label": "Sync Lipsync v3",
+      "input_modes": [
+        "video_edit",
+        "image_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en"
+      ],
+      "prompt_semantics": "none",
+      "tokens_per_second": 8,
+      "stability": "beta",
+      "editorial": "Узкий инструмент для говорящего спикера: выберите либо готовое видео, либо фото и добавьте озвучку. Режим syncMode применяется только к маршруту видео-в-видео."
+    },
+    {
+      "id": "topaz-apollo",
+      "kind": "video",
+      "provider": "topaz",
+      "label": "Topaz Apollo",
+      "input_modes": [
+        "video_upscale"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en"
+      ],
+      "prompt_semantics": "none",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Плавное движение и замедление видео через интерполяцию кадров. Выбирайте обработку по дефекту исходного файла; результат не заменяет проверку точности цвета, лиц и деталей."
+    },
+    {
+      "id": "topaz-astra-2",
+      "kind": "video",
+      "provider": "topaz",
+      "label": "Topaz Astra 2",
+      "input_modes": [
+        "video_upscale"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "exact_text",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Для увеличения AI-видео, иллюстративных сцен и общих планов с дорисовкой фактур. Описание может направить внешний вид новых деталей. Обработка творческая: лица, надписи и мелкие предметы могут измениться. Модель дорисовывает детали: проверяйте лица, текст и фактуры, когда нужна точная передача исходника."
+    },
+    {
+      "id": "topaz-bloom-2",
+      "kind": "image",
+      "provider": "topaz",
+      "label": "Topaz Bloom 2",
+      "input_modes": [
+        "image_upscale"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en"
+      ],
+      "prompt_semantics": "none",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Для увеличения AI-иллюстраций и творческой проработки фактур. Добавляет новые детали по содержанию исходника; подходит, когда изображение можно переосмыслить, а лица, текст и предметы не требуют строгого сохранения. Модель дорисовывает детали: проверяйте лица, текст и фактуры, когда нужна точная передача исходника."
+    },
+    {
+      "id": "topaz-denoise-image",
+      "kind": "image",
+      "provider": "topaz",
+      "label": "Topaz Denoise",
+      "input_modes": [
+        "image_upscale"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en"
+      ],
+      "prompt_semantics": "none",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Удаление шума фотографии в исходном размере. Выбирайте обработку по дефекту исходного файла; результат не заменяет проверку точности цвета, лиц и деталей."
+    },
+    {
+      "id": "topaz-nyx",
+      "kind": "video",
+      "provider": "topaz",
+      "label": "Topaz Nyx",
+      "input_modes": [
+        "video_upscale"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en"
+      ],
+      "prompt_semantics": "none",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Очистка шумного видео с возможностью увеличения. Выбирайте обработку по дефекту исходного файла; результат не заменяет проверку точности цвета, лиц и деталей."
+    },
+    {
+      "id": "topaz-proteus",
+      "kind": "video",
+      "provider": "topaz",
+      "label": "Topaz Proteus",
+      "input_modes": [
+        "video_upscale"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en"
+      ],
+      "prompt_semantics": "none",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Универсальная очистка и точный апскейл реального видео: стандартный режим с ручными настройками или мягкий естественный режим 2×. Выбирайте для сохранения исходного содержания; для дорисовки утраченных деталей сравните с генеративной веткой Topaz."
+    },
+    {
+      "id": "topaz-sharpen",
+      "kind": "image",
+      "provider": "topaz",
+      "label": "Topaz Sharpen",
+      "input_modes": [
+        "image_upscale"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en"
+      ],
+      "prompt_semantics": "none",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Устранение размытия и улучшение резкости фотографии. Выбирайте обработку по дефекту исходного файла; результат не заменяет проверку точности цвета, лиц и деталей."
+    },
+    {
+      "id": "topaz-standard-v2",
+      "kind": "image",
+      "provider": "topaz",
+      "label": "Topaz Standard V2",
+      "input_modes": [
+        "image_upscale"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en"
+      ],
+      "prompt_semantics": "none",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Точный апскейл фотографий, качественных снимков, CGI и изображений с текстом; выбирайте режим под исходник. Выбирайте для сохранения исходного содержания; для дорисовки утраченных деталей сравните с генеративной веткой Topaz."
+    },
+    {
+      "id": "topaz-starlight-fast-2",
+      "kind": "video",
+      "provider": "topaz",
+      "label": "Topaz Starlight Fast 2",
+      "input_modes": [
+        "video_upscale"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en"
+      ],
+      "prompt_semantics": "none",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Для восстановления и увеличения большого числа роликов, когда важен срок обработки. Topaz позиционирует Fast 2 для быстрых рабочих циклов. Дорисовка может менять мелкие детали исходника. Модель дорисовывает детали: проверяйте лица, текст и фактуры, когда нужна точная передача исходника."
+    },
+    {
+      "id": "topaz-starlight-precise-2.6",
+      "kind": "video",
+      "provider": "topaz",
+      "label": "Topaz Starlight Precise 2.6",
+      "input_modes": [
+        "video_upscale"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en"
+      ],
+      "prompt_semantics": "none",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Для восстановления деталей в AI-видео и архивных кадрах: лиц, ткани, материалов и надписей. Модель ориентирована на реалистичную обработку и уменьшение мерцания деталей между кадрами; результат требует просмотра. Модель дорисовывает детали: проверяйте лица, текст и фактуры, когда нужна точная передача исходника."
+    },
+    {
+      "id": "topaz-transparent",
+      "kind": "image",
+      "provider": "topaz",
+      "label": "Topaz Transparent Upscale",
+      "input_modes": [
+        "image_upscale"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en"
+      ],
+      "prompt_semantics": "none",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Увеличение изображения с прозрачностью ровно в 4 раза; результат PNG с alpha. Выбирайте обработку по дефекту исходного файла; результат не заменяет проверку точности цвета, лиц и деталей."
+    },
+    {
+      "id": "topaz-wonder-3.5",
+      "kind": "image",
+      "provider": "topaz",
+      "label": "Topaz Wonder 3.5",
+      "input_modes": [
+        "image_upscale"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "auto"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en"
+      ],
+      "prompt_semantics": "none",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Для восстановления небольших фотографий, которым не хватает деталей. Дорисовывает фактуры при увеличении; подходит, когда допустима реконструкция, а не требуется точное сохранение каждой детали. Модель дорисовывает детали: проверяйте лица, текст и фактуры, когда нужна точная передача исходника."
+    },
+    {
+      "id": "transcribe",
+      "kind": "transcription",
+      "provider": "elevenlabs",
+      "label": "Transcription",
+      "input_modes": [],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [],
+      "prompt_semantics": null,
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": ""
+    },
+    {
+      "id": "veo-3.1",
+      "kind": "video",
+      "provider": "google",
+      "label": "Veo 3.1",
+      "input_modes": [
+        "image_to_video",
+        "text_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "720p",
+        "1080p",
+        "4k"
+      ],
+      "durations": [
+        8
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 14,
+      "stability": "beta",
+      "editorial": "Премиальный кино-стандарт: топ-5 обеих арен (июль 2026), самый зрелый звук с диалогами, 4K. Минусы: цена и ровно 8 с. Hero-кадры — сюда; итерации — veo-3.1-fast или Seedance Fast."
+    },
+    {
+      "id": "veo-3.1-fast",
+      "kind": "video",
+      "provider": "google",
+      "label": "Veo 3.1 Fast",
+      "input_modes": [
+        "image_to_video",
+        "text_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "720p",
+        "1080p",
+        "4k"
+      ],
+      "durations": [
+        8
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 2,
+      "stability": "beta",
+      "editorial": "Выбирайте для итераций сцен с диалогами, шумами и атмосферой. Fast — ускоренный вариант по позиционированию Google; время ожидания зависит от маршрута и очереди. Сравните выбранный дубль с обычной Veo перед финалом, если критичны детали и исполнение."
+    },
+    {
+      "id": "veo-3.1-lite",
+      "kind": "video",
+      "provider": "google",
+      "label": "Veo 3.1 Lite",
+      "input_modes": [
+        "image_to_video",
+        "text_to_video"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "720p",
+        "1080p"
+      ],
+      "durations": [
+        8
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 1.5,
+      "stability": "beta",
+      "editorial": "Бюджетный вход в линейку Veo для объёма соцконтента (до 1080p, звук переключается); на аренах отдельно не размечен, по качеству ниже Fast. За чистую цену/качество сравни с wan-2.7-video и grok-imagine-video."
+    },
+    {
+      "id": "wan-2.7-image",
+      "kind": "image",
+      "provider": "alibaba",
+      "label": "Wan 2.7 Image",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "1:8",
+        "21:9",
+        "3:4",
+        "4:3",
+        "8:1",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Ниша — контроль внешности по референсам (черты, макияж и причёска), но по общему качеству низ арены t2i (№42 из 70, июль 2026). За просто красивым фотореалистичным портретом иди в gpt-image-2/Nano Banana; сюда — когда нужен именно референс-контроль лица недорого."
+    },
+    {
+      "id": "wan-2.7-image-pro",
+      "kind": "image",
+      "provider": "alibaba",
+      "label": "Wan 2.7 Image Pro",
+      "input_modes": [
+        "text_to_image",
+        "image_edit"
+      ],
+      "mode_options": [],
+      "resolutions": [],
+      "durations": [],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "1:8",
+        "21:9",
+        "3:4",
+        "4:3",
+        "8:1",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": null,
+      "stability": "beta",
+      "editorial": "Выбирайте для подробных композиций, постеров и упаковки с надписями, таблицами или формулами. Разделите описание на объекты, их расположение и точный текст. Режим рассуждения помогает разобрать задание, но не гарантирует правильные буквы и числа."
+    },
+    {
+      "id": "wan-2.7-video",
+      "kind": "video",
+      "provider": "alibaba",
+      "label": "Wan 2.7 Video",
+      "input_modes": [
+        "image_to_video",
+        "text_to_video",
+        "video_edit",
+        "video_reference"
+      ],
+      "mode_options": [
+        "create",
+        "edit"
+      ],
+      "resolutions": [
+        "720p",
+        "1080p"
+      ],
+      "durations": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "1:1",
+        "3:4",
+        "4:3",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 6,
+      "stability": "beta",
+      "editorial": "Недооценённый универсал: топ-5 ОБЕИХ арен (июль 2026) по средней цене, генерация и правка в одном движке. При создании из текста или фото поддерживает входное аудио; отдельного переключателя звука нет."
+    },
+    {
+      "id": "wan-3.0",
+      "kind": "video",
+      "provider": "alibaba",
+      "label": "Wan 3.0",
+      "input_modes": [
+        "text_to_video",
+        "image_to_video",
+        "video_reference"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "480p",
+        "720p",
+        "1080p"
+      ],
+      "durations": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "aspect_ratios": [
+        "adaptive",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 2,
+      "stability": "beta",
+      "editorial": "Бери для управляемых роликов с референсами и встроенным звуком. В режиме «Озвучить» добавь фото спикера, до 9 изображений-референсов и одну озвучку: длительность подставляется из аудио и может быть изменена, описание движения необязательно. Режим «Создать» сохраняет все мультимодальные возможности. Аудио может задавать голос, ритм и движения губ; дословное сохранение записи не гарантировано. Для Standard цена ниже, чем у Prime."
+    },
+    {
+      "id": "wan-3.0-prime",
+      "kind": "video",
+      "provider": "alibaba",
+      "label": "Wan 3.0 Prime",
+      "input_modes": [
+        "text_to_video",
+        "image_to_video",
+        "video_reference"
+      ],
+      "mode_options": [],
+      "resolutions": [
+        "480p",
+        "720p",
+        "1080p"
+      ],
+      "durations": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "aspect_ratios": [
+        "adaptive",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16"
+      ],
+      "aliases": false,
+      "prompt_language": "en",
+      "supported_languages": [
+        "en",
+        "ru"
+      ],
+      "prompt_semantics": "compiled_prompt",
+      "tokens_per_second": 3.6,
+      "stability": "beta",
+      "editorial": "Ускоренный вариант Wan 3.0 с теми же типами входов. В режиме «Озвучить» добавь фото спикера, до 9 изображений-референсов и одну озвучку: длительность подставляется из аудио и может быть изменена, описание движения необязательно. Режим «Создать» сохраняет все мультимодальные возможности. Аудио может задавать голос, ритм и движения губ; дословное сохранение записи не гарантировано. Превосходство по качеству над Standard не заявляем."
+    }
+  ]
+}

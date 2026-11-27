@@ -1,0 +1,19 @@
+# transcribe
+
+Adapted model card. Sales copy was removed. This card does not quote a live price.
+
+- Kind: transcription
+- Provider family: elevenlabs
+- Label: Transcription
+- Input modes: unspecified
+- Mode options: unspecified
+- Resolutions: unspecified
+- Durations (seconds): unspecified
+- Aspect ratios: unspecified
+- Inline @ aliases: no
+- Prompt language: en
+- Prompt semantics: unspecified
+
+## OpenMontage use
+
+Edit-source means mode `edit` and field `sourceVideo`. Motion-reference means the clip controls motion and camera only. Rank this card with `lib.scoring`, then show a launch card before any paid call.

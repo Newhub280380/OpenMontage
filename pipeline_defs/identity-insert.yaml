@@ -1,0 +1,178 @@
+name: identity-insert
+version: "1.0"
+description: >
+  Place one person's approved likeness into a reference or trend clip.
+  Photos become an eight-view character sheet. The planner chooses edit
+  (sourceVideo) or motion-reference, inserts the person into first, key, and
+  last stills, and only then plans animation. A launch card is required before
+  any paid generation. Drafts are 480p chunks of about 15 seconds.
+category: custom
+stability: beta
+default_checkpoint_policy: guided
+
+reference_input:
+  supported: true
+  analysis_depth: standard
+  analysis_tools:
+    - scene_detect
+    - frame_sampler
+    - video_analyzer
+
+orchestration:
+  mode: executive-producer
+  skill: pipelines/identity-insert/executive-producer
+  budget_default_usd: 10.00
+  max_revisions_per_stage: 3
+  max_send_backs: 3
+  max_wall_time_minutes: 20
+
+extensions:
+  custom_scripts: true
+  custom_playbooks: true
+  custom_skills: true
+  custom_tools: false
+
+required_skills:
+  - pipelines/identity-insert/executive-producer
+  - pipelines/identity-insert/intake-director
+  - pipelines/identity-insert/proposal-director
+  - pipelines/identity-insert/character-sheet-director
+  - pipelines/identity-insert/frames-director
+  - pipelines/identity-insert/prompt-director
+  - pipelines/identity-insert/launch-director
+  - pipelines/identity-insert/compose-director
+  - meta/reviewer
+  - meta/checkpoint-protocol
+
+compatible_playbooks:
+  recommended:
+    - premium-minimalist
+  also_works:
+    - clean-professional
+  custom_allowed: true
+
+stages:
+  - name: intake
+    skill: pipelines/identity-insert/intake-director
+    produces: []
+    tools_available:
+      - identity_middle_layer
+    checkpoint_required: true
+    human_approval_default: false
+    review_focus:
+      - Photo ids and the reference clip id are present and no photo bytes were committed
+      - Edit versus motion-reference is explicit
+      - A trend template, when used, has settings and slots only
+    success_criteria:
+      - identity_middle_layer plan exists
+      - render_started is false
+
+  - name: proposal
+    skill: pipelines/identity-insert/proposal-director
+    required_artifacts_in: []
+    produces:
+      - proposal_packet
+      - decision_log
+    tools_available:
+      - identity_middle_layer
+    checkpoint_required: true
+    human_approval_default: true
+    review_focus:
+      - Ranked model comes from lib.scoring and an edit request prefers source_video_edit
+      - Cost estimate is the launch-card catalog figure, not a live charge
+      - Both composition runtimes are presented when a graphic overlay is in scope
+      - Delivery promise stays motion-led
+    success_criteria:
+      - Schema-valid proposal_packet
+      - At least 3 concept options
+      - approval.status is pending until the person decides
+
+  - name: character_sheet
+    skill: pipelines/identity-insert/character-sheet-director
+    required_artifacts_in:
+      - proposal_packet
+    produces: []
+    tools_available:
+      - identity_middle_layer
+    checkpoint_required: true
+    human_approval_default: true
+    review_focus:
+      - Sheet has eight views, three plates, and alias @name
+      - Photo count is between 1 and 16
+      - The sheet is not marked rendered
+    success_criteria:
+      - sheet.approved is true only after the person accepts the views
+
+  - name: frames
+    skill: pipelines/identity-insert/frames-director
+    required_artifacts_in:
+      - proposal_packet
+    produces: []
+    tools_available:
+      - identity_middle_layer
+      - frame_sampler
+    checkpoint_required: true
+    human_approval_default: true
+    review_focus:
+      - First, key, and last stills are planned before any animation
+      - Edit mode includes the mannequin pass and the original actor is not the target
+      - Motion-reference mode does not claim frame-by-frame preservation
+    success_criteria:
+      - frames.approved is true only after the sheet is approved
+
+  - name: prompt_compile
+    skill: pipelines/identity-insert/prompt-director
+    required_artifacts_in:
+      - proposal_packet
+    produces: []
+    tools_available:
+      - identity_middle_layer
+    checkpoint_required: true
+    human_approval_default: false
+    review_focus:
+      - Prompt order is preserve, then replace, then integrate
+      - Aliases match the model card
+      - Timeline uses measured chunk bounds only
+    success_criteria:
+      - Compiled prompt names the approved @alias
+      - Duration is inside the model card limits
+
+  - name: launch
+    skill: pipelines/identity-insert/launch-director
+    required_artifacts_in:
+      - proposal_packet
+    produces: []
+    tools_available:
+      - identity_middle_layer
+    checkpoint_required: true
+    human_approval_default: true
+    review_focus:
+      - Card shows model, full prompt, settings, estimate, and expiry
+      - CostTracker holds the estimate and reserves only after this approval
+      - Expired card does not start a job
+    success_criteria:
+      - launch.approved is true only after sheet and frames
+      - paid_call_allowed stays false on the planning tool
+
+  - name: compose
+    skill: pipelines/identity-insert/compose-director
+    required_artifacts_in:
+      - proposal_packet
+    produces:
+      - render_report
+    tools_available:
+      - identity_middle_layer
+      - video_stitch
+      - upscale
+      - video_compose
+    optional_tools:
+      - video_trimmer
+    checkpoint_required: true
+    human_approval_default: true
+    review_focus:
+      - Chunks are about 15 seconds and stitched in order
+      - Draft is 480p and the final upscales that draft instead of regenerating motion
+      - ffmpeg QA covers duration, black frames, frozen frames, silence, and loudness
+    success_criteria:
+      - No provider call happened without an approved unexpired launch card
+      - QA plan or QA result is attached

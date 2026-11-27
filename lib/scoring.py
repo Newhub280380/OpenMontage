@@ -507,6 +507,17 @@ def score_provider(tool, task_context: dict[str, Any]) -> ProviderScore:
         else:
             task_fit *= 0.7
 
+    # Identity insert: replacing a person inside an existing clip needs a
+    # source-video edit slot. A motion-reference model stays recognizable,
+    # not frame-faithful, so it ranks below an edit-capable model.
+    if task_context.get("wants_source_video_edit") and asset_type == "video":
+        if supports.get("source_video_edit") or supports.get("video_edit"):
+            task_fit = min(1.0, task_fit + 0.2)
+            control = min(1.0, control + 0.12)
+            continuity = min(1.0, continuity + 0.1)
+        else:
+            task_fit *= 0.35
+
     if task_context.get("wants_image_editing") and asset_type == "image":
         if (
             supports.get("image_edit")

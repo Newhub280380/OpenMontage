@@ -292,6 +292,16 @@ Run at **research** and **proposal** stages when user-supplied media files exist
 - Plan doesn't reflect quality risks: **SUGGESTION**
 - Plan assumes content not in source: **CRITICAL**
 
+## Identity Insert Review
+
+Run when the pipeline is `identity-insert`, or when the artifact is an identity plan (`sheet`, `video_mode`, `launch`).
+
+1. **Mode split.** `video_mode.field` is `sourceVideo` for edit and `referenceVideo` for motion-only. Treating a reference clip as frame-accurate, or an edit as motion-only, is **CRITICAL**. Fix: set the field the plan's mode already names and say which frames are kept.
+2. **Sheet before stills before launch.** `frames.approved` while `sheet.approved` is false, or `launch.approved` while `frames.approved` is false, is **CRITICAL**. Fix: clear the later flag and wait for the earlier gate.
+3. **Unexpired card.** A paid provider call while `launch.approved` is false, `paid_call_allowed` was forced true on the planner, or `now` is after `launch.expires_at`, is **CRITICAL**. Fix: build a new card and reserve with `CostTracker` again. The planner's `render_started` must stay false.
+4. **Prompt contract.** A compiled prompt missing PRESERVE, REPLACE, or INTEGRATE, or a timeline second that is not a measured chunk bound, is **CRITICAL**. Fix: recompile from the model card. Do not add adjectives as the only change when the face is wrong; use the recovery levers.
+5. **Trend text.** A trend entry that contains a copied third-party prompt body is **CRITICAL**. Fix: keep settings, mode, and slots only.
+
 ## Final Self-Review Review
 
 Run at **compose** and **publish** stages. Ensures the agent reviewed the actual rendered output.
